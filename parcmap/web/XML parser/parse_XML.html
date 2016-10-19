@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <script>
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+
+
+            xmlhttp.onload = function() {
+                var xmlDoc = new DOMParser().parseFromString(xmlhttp.responseText,'text/xml');
+
+                console.log(xmlDoc);
+
+                document.write("<table border='1'>");
+                var x=xmlDoc.getElementsByTagName("content");
+                for (i=0;i<x.length;i++)
+                { 
+                    document.write("<tr><td>");
+                    document.write(x[i].getElementsByTagName("TITRE")[0].childNodes[0].nodeValue);
+                    document.write("</td><td>");
+					if(x[i].getElementsByTagName("DESCRIPTIF")[0]){
+						document.write(x[i].getElementsByTagName("DESCRIPTIF")[0].childNodes[0].nodeValue);
+						document.write("</td><td>");
+						}
+                    document.write(x[i].getElementsByTagName("LATITUDE")[0].childNodes[0].nodeValue);
+					document.write("</td><td>");
+                    document.write(x[i].getElementsByTagName("LONGITUDE")[0].childNodes[0].nodeValue);
+                    document.write("</td></tr>");
+                }
+                document.write("</table>");
+
+            }
+
+
+            xmlhttp.open("GET","jardins35fr.xml",false);
+            xmlhttp.send();
+            </script>
+
+    </body>
+</html>

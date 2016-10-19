@@ -1,0 +1,4286 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1.000000,
+        "DE_JEUX": 1.000000,
+        "NOM_AIRE": "Esplanade Paul ValÃ©ry",
+        "TOTAL": 9.000000,
+        "_1_Ã _5_ANS": "1",
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.846591265469564,
+            43.599515498684504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 7.000000,
+        "DE_JEUX": 2.000000,
+        "NOM_AIRE": "Aire du Petit Bois",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "5",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.840804691960138,
+            43.605454341298476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 9.000000,
+        "DE_JEUX": 3.000000,
+        "NOM_AIRE": "Aire du Mas de la Paillade",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": "3",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "2",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.815346746724621,
+            43.628106194137636
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 11.000000,
+        "DE_JEUX": 4.000000,
+        "NOM_AIRE": "Parc Edith Piaf",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": "1",
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.888278570920513,
+            43.621947951746733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 13.000000,
+        "DE_JEUX": 5.000000,
+        "NOM_AIRE": "Parc de la Guirlande",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.860578437688438,
+            43.607241378976923
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 14.000000,
+        "DE_JEUX": 6.000000,
+        "NOM_AIRE": "Parc Rimbaud",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": "1",
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "1",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.894767569838583,
+            43.617824144411486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 16.000000,
+        "DE_JEUX": 8.000000,
+        "NOM_AIRE": "Parc Sainte Odile",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": "1",
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "3",
+        "4_Ã _10_ANS": "1",
+        "4_Ã _12_ANS": "1",
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.872166729545908,
+            43.623948836387314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 35.000000,
+        "DE_JEUX": 11.000000,
+        "NOM_AIRE": "Aire de jeux Brassens (basse)",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": "1",
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.812987307795528,
+            43.638746970656605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 47.000000,
+        "DE_JEUX": 16.000000,
+        "NOM_AIRE": "Square FranÃ§ois Deuzeuze",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": "1",
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.839944120530031,
+            43.608283914392139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 49.000000,
+        "DE_JEUX": 18.000000,
+        "NOM_AIRE": "Square des Arceaux",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": "1",
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.861079210985289,
+            43.611961354410987
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 67.000000,
+        "DE_JEUX": 20.000000,
+        "NOM_AIRE": "Parc Magnol",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "4",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.863030231426251,
+            43.617331416818757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 69.000000,
+        "DE_JEUX": 21.000000,
+        "NOM_AIRE": "Parc Azema",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": "1",
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.828777610896831,
+            43.616507638301968
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 954.000000,
+        "DE_JEUX": 22.000000,
+        "NOM_AIRE": "Esplanade de la Musique",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "3",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "1",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.881838467293252,
+            43.616971137725933
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 143.000000,
+        "DE_JEUX": 23.000000,
+        "NOM_AIRE": "Grand Mail",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.816243099741451,
+            43.624722141116074
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 144.000000,
+        "DE_JEUX": 24.000000,
+        "NOM_AIRE": "Square Maquis Bir-Hakeim",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": "1",
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "2",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.858003855657549,
+            43.61096064281513
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 263.000000,
+        "DE_JEUX": 29.000000,
+        "NOM_AIRE": "Aire des Trolles (Petit Bard)",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.837302149771479,
+            43.617107958728731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 280.000000,
+        "DE_JEUX": 30.000000,
+        "NOM_AIRE": "Parc de Bagatelle",
+        "TOTAL": 8.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": "1",
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": "2",
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.839748798224906,
+            43.59397895561186
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 334.000000,
+        "DE_JEUX": 32.000000,
+        "NOM_AIRE": "Aire Vert-Bois",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "2",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.86797609446915,
+            43.638740468838527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 531.000000,
+        "DE_JEUX": 34.000000,
+        "NOM_AIRE": "Parc du Mas Prunet",
+        "TOTAL": 1.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": "1",
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.832256414186308,
+            43.598742115353915
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 679.000000,
+        "DE_JEUX": 35.000000,
+        "NOM_AIRE": "Aire de jeu Pierre Paraf",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "4",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.845708347844063,
+            43.595084345486882
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 22.000000,
+        "DE_JEUX": 38.000000,
+        "NOM_AIRE": "Parc de la Rauze",
+        "TOTAL": 8.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": "1",
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "4",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": "1",
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.895659244081874,
+            43.59131898732322
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 57.000000,
+        "DE_JEUX": 39.000000,
+        "NOM_AIRE": "Aire du Clos des Orangers",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.853809413445184,
+            43.60037378083063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 62.000000,
+        "DE_JEUX": 40.000000,
+        "NOM_AIRE": "Parc Enclava del lop",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": "3",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.847116091357182,
+            43.600618110039825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 65.000000,
+        "DE_JEUX": 42.000000,
+        "NOM_AIRE": "Parc des Aiguerelles",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": "2",
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.891048380427963,
+            43.59850250235241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 76.000000,
+        "DE_JEUX": 43.000000,
+        "NOM_AIRE": "Square Jean Baumel",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.858428926282674,
+            43.640308930988915
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 84.000000,
+        "DE_JEUX": 44.000000,
+        "NOM_AIRE": "Aire Villeneuve d'AngoulÃ¨me",
+        "TOTAL": 11.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": "1",
+        "Ã _15__ANS": "1",
+        "_2_Ã _4_ANS": "1",
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "4",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "1",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.869064823214572,
+            43.596484521084562
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 95.000000,
+        "DE_JEUX": 45.000000,
+        "NOM_AIRE": "Square des PrÃ¨s d'ArÃªnes",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.890052960118891,
+            43.590479907902377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 115.000000,
+        "DE_JEUX": 46.000000,
+        "NOM_AIRE": "Parc de la Croix d'Argent",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": "1",
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.863530928080035,
+            43.587019618324589
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 289.000000,
+        "DE_JEUX": 48.000000,
+        "NOM_AIRE": "Square Mas Drevon",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": "2",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "1",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.869830499991257,
+            43.591670778500081
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 19.000000,
+        "DE_JEUX": 50.000000,
+        "NOM_AIRE": "Aire du Champ de Mars (Espla)",
+        "TOTAL": 10.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "6",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "3",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.882191163869041,
+            43.611121251093373
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 19.000000,
+        "DE_JEUX": 51.000000,
+        "NOM_AIRE": "Aire du Champ de Mars (Joffre)",
+        "TOTAL": 2.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": "1",
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.882191163869041,
+            43.611121251093373
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 28.000000,
+        "DE_JEUX": 52.000000,
+        "NOM_AIRE": "Square Planchon",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.879891223603903,
+            43.60564002226598
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 20.000000,
+        "DE_JEUX": 53.000000,
+        "NOM_AIRE": "Aire des Pastourelles",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "2",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.899561225889401,
+            43.621153754015161
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 23.000000,
+        "DE_JEUX": 54.000000,
+        "NOM_AIRE": "Jardin de la PÃ©piniÃ¨re",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": "1",
+        "_2_Ã _8_ANS": "4",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.885475723325649,
+            43.595604674692765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 31.000000,
+        "DE_JEUX": 56.000000,
+        "NOM_AIRE": "Aire Mail Saint Martin",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": "1",
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "2",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.883564956841527,
+            43.593941799013862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 141.000000,
+        "DE_JEUX": 57.000000,
+        "NOM_AIRE": "Place de TibÃ©riade",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": "1",
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.877355539192187,
+            43.581128300461025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 30.000000,
+        "DE_JEUX": 58.000000,
+        "NOM_AIRE": "Aire Saint Martin (EvÃ©chÃ©)",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.8849514421466,
+            43.591940695512534
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 305.000000,
+        "DE_JEUX": 60.000000,
+        "NOM_AIRE": "Parc du Bois de la ChaumiÃ¨re",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "2",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.933122566665918,
+            43.615341236620452
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 200.000000,
+        "DE_JEUX": 61.000000,
+        "NOM_AIRE": "Square Jean Monnet",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": "1",
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": "2",
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.889206504127404,
+            43.604203261678379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 474.000000,
+        "DE_JEUX": 66.000000,
+        "NOM_AIRE": "Place de Marathon",
+        "TOTAL": 8.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": "1",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.889557207799148,
+            43.607612415980476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 52.000000,
+        "DE_JEUX": 68.000000,
+        "NOM_AIRE": "Les Brusses",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.859117143161205,
+            43.633603888114862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 56.000000,
+        "DE_JEUX": 72.000000,
+        "NOM_AIRE": "Les Clolus 2",
+        "TOTAL": 2.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "2",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.879969883238378,
+            43.628449659861353
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 149.000000,
+        "DE_JEUX": 77.000000,
+        "NOM_AIRE": "Aire du Mas de Perrette",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.839048512372784,
+            43.597962965081059
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 725.000000,
+        "DE_JEUX": 83.000000,
+        "NOM_AIRE": "Aire de jeux de Costebelle",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": "1",
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": "1",
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.901901812288913,
+            43.610558214047209
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 530.000000,
+        "DE_JEUX": 84.000000,
+        "NOM_AIRE": "Aire de jeux du Mas MÃ©ric",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": "1",
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "4",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "1",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.891377858114428,
+            43.630927512325833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 626.000000,
+        "DE_JEUX": 92.000000,
+        "NOM_AIRE": "Aire de jeux de la Carriera",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.816556559323847,
+            43.640916320853982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 724.000000,
+        "DE_JEUX": 93.000000,
+        "NOM_AIRE": "Aire Ferdinand de Lesseps",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": "1",
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.878523179303653,
+            43.593371142332714
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 773.000000,
+        "DE_JEUX": 95.000000,
+        "NOM_AIRE": "Aire de jeux du PÃ¨re Louis",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.8966367865491,
+            43.60965433574291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 25.000000,
+        "DE_JEUX": 96.000000,
+        "NOM_AIRE": "Aire de Saint-Roch",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.87614013725686,
+            43.608783215066268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 774.000000,
+        "DE_JEUX": 97.000000,
+        "NOM_AIRE": "Aire square MoliÃ¨re",
+        "TOTAL": 2.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.855004500620609,
+            43.591952848364215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 458.000000,
+        "DE_JEUX": 99.000000,
+        "NOM_AIRE": "Aire de jeux Dr Fourcade",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.894870247304908,
+            43.589273394552556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 756.000000,
+        "DE_JEUX": 100.000000,
+        "NOM_AIRE": "Aire du square d'Arsonval",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "2",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.864123535087215,
+            43.594755663467588
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 562.000000,
+        "DE_JEUX": 105.000000,
+        "NOM_AIRE": "Square Bernard Chely",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.856586949451253,
+            43.59737178505857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 51.000000,
+        "DE_JEUX": 106.000000,
+        "NOM_AIRE": "Marcel Pagnol",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.850159439429702,
+            43.601784760254354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 853.000000,
+        "DE_JEUX": 107.000000,
+        "NOM_AIRE": "Square AndrÃ© Vedel",
+        "TOTAL": 2.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "2",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.913258256808005,
+            43.615610033945778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 643.000000,
+        "DE_JEUX": 108.000000,
+        "NOM_AIRE": "Place Mansart",
+        "TOTAL": 1.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.826637845442066,
+            43.61380616415223
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 575.000000,
+        "DE_JEUX": 109.000000,
+        "NOM_AIRE": "Aire Fabre de Morlhon",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.877902612782132,
+            43.594309300644156
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 857.000000,
+        "DE_JEUX": 110.000000,
+        "NOM_AIRE": "Mas de Neuville",
+        "TOTAL": 7.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": "2",
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "2",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.841044237417029,
+            43.626397340691675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 894.000000,
+        "DE_JEUX": 112.000000,
+        "NOM_AIRE": "Place de l'Aiguelongue",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.880812732769309,
+            43.627960936929306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 178.000000,
+        "DE_JEUX": 113.000000,
+        "NOM_AIRE": "CitÃ© Astruc",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": "1",
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": "1",
+        "7_Ã _14_ANS": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.850360637196197,
+            43.61109525045525
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 626.000000,
+        "DE_JEUX": 114.000000,
+        "NOM_AIRE": "Square la Carriera extension",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.816556559323847,
+            43.640916320853982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 247.000000,
+        "DE_JEUX": 115.000000,
+        "NOM_AIRE": "Pierre Cardenal",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.818087093162369,
+            43.637437614224766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 956.000000,
+        "DE_JEUX": 116.000000,
+        "NOM_AIRE": "ACM Les Aiguerelles",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.885549566861386,
+            43.601664415958723
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 842.000000,
+        "DE_JEUX": 118.000000,
+        "NOM_AIRE": "Aire des CÃ©toines",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.87400844105622,
+            43.628138375755746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 932.000000,
+        "DE_JEUX": 119.000000,
+        "NOM_AIRE": "ACM Aiguelongue I",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.882125544791845,
+            43.626136033378813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 933.000000,
+        "DE_JEUX": 120.000000,
+        "NOM_AIRE": "ACM Aiguelongue II",
+        "TOTAL": 1.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.878895753286483,
+            43.62998980151584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 958.000000,
+        "DE_JEUX": 121.000000,
+        "NOM_AIRE": "Aire Alexender Bell",
+        "TOTAL": 9.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "3",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "2",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.906852246857055,
+            43.611461402042728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 836.000000,
+        "DE_JEUX": 122.000000,
+        "NOM_AIRE": "Parc Georges Clemenceau",
+        "TOTAL": 8.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": "1",
+        "_2_Ã _4_ANS": "1",
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": "1",
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": "1",
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.871635715783413,
+            43.604080185970048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 959.000000,
+        "DE_JEUX": 123.000000,
+        "NOM_AIRE": "ACM Maurin",
+        "TOTAL": 1.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.875238245364043,
+            43.592030616150538
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 659.000000,
+        "DE_JEUX": 124.000000,
+        "NOM_AIRE": "Aire Parc Richter",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "2",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "1",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.896777060684226,
+            43.601279315699777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 965.000000,
+        "DE_JEUX": 125.000000,
+        "NOM_AIRE": "Dioscoride",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": "1",
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": "1",
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.831740803143865,
+            43.613180182428813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1105.000000,
+        "DE_JEUX": 126.000000,
+        "NOM_AIRE": "Billie Holiday",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": "1",
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": "1",
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.835371973674639,
+            43.637900377412464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 971.000000,
+        "DE_JEUX": 127.000000,
+        "NOM_AIRE": "Aire BartolomÃ© de Las Casas",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": "1",
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "2",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.845066239255947,
+            43.616728306575709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1010.000000,
+        "DE_JEUX": 128.000000,
+        "NOM_AIRE": "Aire de jeux des Papyrus",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "3",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "1",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.850337830364596,
+            43.620553549930584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1032.000000,
+        "DE_JEUX": 130.000000,
+        "NOM_AIRE": "Aire de jeux rue Vien",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "1",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.873980996303637,
+            43.609273303333737
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 781.000000,
+        "DE_JEUX": 131.000000,
+        "NOM_AIRE": "Aire de jeux de la CathÃ©drale",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": "4",
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.874975439157383,
+            43.613304197297815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1034.000000,
+        "DE_JEUX": 132.000000,
+        "NOM_AIRE": "Aire de jeux A. Bramante",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": "1",
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.835913866096179,
+            43.631388578572874
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1038.000000,
+        "DE_JEUX": 133.000000,
+        "NOM_AIRE": "Aires du Parc Saint Fiacre",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "2",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.831722814651082,
+            43.632099665504647
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 815.000000,
+        "DE_JEUX": 135.000000,
+        "NOM_AIRE": "Aire de jeux des Patriotes",
+        "TOTAL": 2.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.893714723159491,
+            43.601659838824929
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 538.000000,
+        "DE_JEUX": 136.000000,
+        "NOM_AIRE": "Aire Aiguelongue basse",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.873648660953701,
+            43.629709472903166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1069.000000,
+        "DE_JEUX": 137.000000,
+        "NOM_AIRE": "Ovalie : Parc du BelvÃ©dÃ¨re",
+        "TOTAL": 5.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "2",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "1",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.846386269931911,
+            43.590093828416741
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 250.000000,
+        "DE_JEUX": 138.000000,
+        "NOM_AIRE": "Square piscine Mosson",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "1",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "1",
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.815636862728673,
+            43.620931804082424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 589.000000,
+        "DE_JEUX": 139.000000,
+        "NOM_AIRE": "Square de la Providence",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.875423927657192,
+            43.613872320963324
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 659.000000,
+        "DE_JEUX": 140.000000,
+        "NOM_AIRE": "Fitness Richter",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": "3",
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.896777060684226,
+            43.601279315699777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 783.000000,
+        "DE_JEUX": 142.000000,
+        "NOM_AIRE": "Camille Ernst",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "3",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.878575663795698,
+            43.618545338142326
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1025.000000,
+        "DE_JEUX": 143.000000,
+        "NOM_AIRE": "Aire de jeux de Fontcolombe",
+        "TOTAL": 1.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": "1",
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.830633604847595,
+            43.597851002824406
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 10.000000,
+        "DE_JEUX": 144.000000,
+        "NOM_AIRE": "Fitness Lac des Garrigues",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": "6",
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.816403410445969,
+            43.639145073041682
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1.000000,
+        "DE_JEUX": 146.000000,
+        "NOM_AIRE": "Fitness Paul ValÃ©ry",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": "3",
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.846591265469564,
+            43.599515498684504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1199.000000,
+        "DE_JEUX": 147.000000,
+        "NOM_AIRE": "Le Tintoret",
+        "TOTAL": 6.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": "4",
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": "1",
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.910929625818665,
+            43.605777318152711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1112.000000,
+        "DE_JEUX": 148.000000,
+        "NOM_AIRE": "PÃ¨re Bonnet",
+        "TOTAL": 1.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.866175632544767,
+            43.606841616003699
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 527.000000,
+        "DE_JEUX": 149.000000,
+        "NOM_AIRE": "Aire de jeux Charpak 1(Marianne)",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": "1",
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "1",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.904900785500438,
+            43.600788266405949
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 1152.000000,
+        "DE_JEUX": 150.000000,
+        "NOM_AIRE": "LES GRISETTES",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": null,
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": "2",
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": "1",
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.859334288625727,
+            43.583085549204355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 945.000000,
+        "DE_JEUX": 151.000000,
+        "NOM_AIRE": "Gabriel Michel",
+        "TOTAL": 3.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": "1",
+        "_2_Ã _5_ANS": "1",
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.90848194750986,
+            43.614018568670147
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 709.000000,
+        "DE_JEUX": 152.000000,
+        "NOM_AIRE": "Delteil",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": null,
+        "_2_Ã _6_ANS": "2",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": "1",
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": "1",
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.838554253126344,
+            43.616147797571983
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DOSSIER": 844.000000,
+        "DE_JEUX": 153.000000,
+        "NOM_AIRE": "Bassin J .Coeur",
+        "TOTAL": 4.000000,
+        "_1_Ã _5_ANS": null,
+        "_1_Ã _6_ANS": null,
+        "Ã _15_ANS": null,
+        "14_ET_PLUS": null,
+        "2_Ã _10_ANS": null,
+        "2_Ã _12_ANS": null,
+        "Ã _15__ANS": null,
+        "_2_Ã _4_ANS": null,
+        "_2_Ã _5_ANS": "3",
+        "_2_Ã _6_ANS": "1",
+        "_2_Ã _7_ANS": null,
+        "_2_Ã _8_ANS": null,
+        "3_Ã _12_ANS": null,
+        "Ã _15__AN0": null,
+        "_3_Ã _6_ANS": null,
+        "_3_Ã _8_ANS": null,
+        "_3_Ã _9_ANS": null,
+        "4_Ã _10_ANS": null,
+        "4_Ã _12_ANS": null,
+        "Ã _15__AN1": null,
+        "_4_Ã _6_ANS": null,
+        "_4_Ã _8_ANS": null,
+        "5_Ã _12_ANS": null,
+        "_5_Ã _8_ANS": null,
+        "6_Ã _12_ANS": null,
+        "6_Ã _14_ANS": null,
+        "7_Ã _14_ANS": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            3.899409996007427,
+            43.599498454620722
+          ]
+        ]
+      }
+    }
+  ]
+}

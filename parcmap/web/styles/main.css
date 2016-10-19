@@ -1,0 +1,339 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+
+#search-panel {
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:#fff;
+}
+
+#location {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#location:focus {
+  border-color: #4d90fe;
+}
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#listContainer{
+   
+}
+
+
+#map { 
+  height: calc(100%);
+  height: -moz-calc(100% ); /* Firefox */
+  height: -webkit-calc(100%); /* Chrome, Safari */}
+#contentGrid {  
+  height: calc(100% - 50px); 
+  height: -moz-calc(100% - 50px); /* Firefox */
+  height: -webkit-calc(100% - 50px); /* Chrome, Safari */
+  padding:0px;margin:0px;
+}
+#mapContainer, #parcDetailsContainer {  height: calc(100%); padding:0px;margin:0px;}
+#mapContainer.mdl-cell--12-col, #mapContainer.mdl-cell--12-col-tablet, #mapContainer.mdl-cell--12-col-tablet{
+  width: calc(100%); 
+} 
+#parcDetails{
+   height: calc(100% - 12px);
+   width:100%;
+}
+#listParcsAround{
+  overflow-y: auto;
+  height: calc(100% - 126px); 
+}
+#listParcsAround li{
+  cursor:pointer;
+}
+#listParcsAround li:hover{
+  background-color:rgb(63,81,181);
+  color:#FFFFFF;
+}
+#listParcsAround li:hover span{
+  color:#FFFFFF;
+}
+#addNewParcCard{
+   height: calc(100% - 12px);
+}
+
+#messages-card-container {
+  height: 300px;
+  padding-bottom: 0;
+}
+#messages-card {
+  margin-top: 15px;
+}
+.mdl-layout__header-row span {
+  margin-left: 15px;
+  margin-top: 17px;
+}
+
+.material-icons {
+  font-size: 36px;
+  top: 8px;
+  position: relative;
+}
+
+.mdl-card__supporting-text {
+  width: auto;
+  height: 100%;
+  padding-top: 0;
+}
+#messages {
+  overflow-y: auto;
+  margin-bottom: 10px;
+  height: calc(100% - 40px);
+  flex: 1 1 auto;
+  flex-direction: column;
+  display: flex;
+}
+#message-filler {
+  flex-grow: 1;
+}
+.message-container:first-of-type {
+  border-top-width: 0;
+}
+.message-container {
+  display: block;
+  margin-top: 10px;
+  border-top: 1px solid #f3f3f3;
+  padding-top: 10px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.message-container.visible {
+  opacity: 1;
+}
+.message-container .pic {
+  background-image: url('/images/profile_placeholder.png');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  border-radius: 20px;
+}
+.message-container .spacing {
+  display: table-cell;
+  vertical-align: top;
+}
+.message-container .message {
+  display: table-cell;
+  width: calc(100% - 40px);
+  padding: 5px 0 5px 10px;
+}
+.message-container .name {
+  display: inline-block;
+  width: 100%;
+  padding-left: 40px;
+  color: #bbb;
+  font-style: italic;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+#message-form {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 48px);
+  float: left;
+}
+#image-form {
+  display: flex;
+  flex-direction: row;
+  width: 48px;
+  float: right;
+}
+#message-form .mdl-textfield {
+  width: calc(100% - 100px);
+}
+#message-form button, #image-form button {
+  width: 100px;
+  margin: 15px 0 0 10px;
+}
+.mdl-card {
+  min-height: 0;
+}
+.mdl-card {
+  background: linear-gradient(white, #f9f9f9);
+  justify-content: space-between;
+}
+#user-container {
+  display: flex;
+  flex-direction: row;
+  top: 22px;
+  right: 0;
+  padding-left: 10px;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+#user-container #user-pic {
+  display: inline-block;
+  background-image: url('/images/profile_placeholder.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  border-radius: 20px;
+}
+#user-container #user-name {
+  font-size: 16px;
+  line-height: 36px;
+  padding-left: 20px;
+}
+
+#user-container #user-search {
+  width: auto;
+  padding: 0 16px 0 1px;
+  min-width: 0;
+}
+
+#user-container #user-search .material-icons{
+  top:14px;
+}
+#user-container #user-search #user-search-icon{
+  bottom:0px;
+}
+#user-container #demo-menu-lower-right .material-icons{
+    top:17px;
+}
+
+#image-form #submitImage {
+  width: auto;
+  padding: 0 6px 0 1px;
+  min-width: 0;
+}
+#image-form #submitImage .material-icons {
+  top: -1px;
+}
+.message img {
+  max-width: 300px;
+  max-height: 200px;
+}
+#mediaCapture {
+  display: none;
+}
+
+@media screen and (max-width: 610px) {
+  header {
+    height: 50px;
+    padding-bottom: 80px;
+  }
+  #user-container {
+    top: 72px;
+    height: 38px;
+    padding-top: 3px;
+    padding-right: 2px;
+  }
+  #user-container #user-pic {
+    top: 2px;
+    width: 33px;
+    height: 33px;
+    background-size: 33px;
+  }
+
+}
+@media (max-width: 610px) {
+  #user-container #user-name {
+    display:none;
+    padding-bottom:12px;
+  }
+  header {
+    padding-bottom: 50px;
+  }
+  .mdl-layout-title h3{
+    display:none;
+  }
+  #location{
+    width:180px;
+  }
+  #contentGrid {  
+  height: calc(100%); 
+  height: -moz-calc(100%); /* Firefox */
+  height: -webkit-calc(100%); /* Chrome, Safari */
+  padding:0px;margin:0px;
+  }
+
+  
+}
+@media (max-width: 850px) {
+  #listContainer{
+    display:none;  
+  }
+}
+.mdl-textfield__label:after {
+  background-color: #0288D1;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+  color: #0288D1;
+}
+
+.gridNoMargin{
+  padding:0px;
+}
+.gridNoMargin .mdl-cell{
+  padding:0px;
+  margin: 0px;
+}
+
+#parcDetailsName{
+
+}
+#parcDetailsDescription{
+    border-top: 1px solid #e0e0e0;
+    margin-top: 1em;
+    max-height: 150px;
+    overflow-y: auto;
+}
+#parcDetailsAddedBy{
+  font-weight:lighter;
+}
+#closeDetails{
+  float:right;
+  margin-right:8px;
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+
+/*maps icon */
+.map-icon {
+  font-size: 10px;
+}

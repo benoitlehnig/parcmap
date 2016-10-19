@@ -1,0 +1,1522 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:f="http://www.mgdis.fr/2013/facets" xml:base="https://www2.mgcloud.fr/dataserver/tourismebretagne/data/">
+	<title type="text">jardins35fr</title>
+	<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr</id>
+	<updated>2015-05-25T04:18:05Z</updated>
+	<author>
+		<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+	</author>
+	<link rel="self" title="jardins35fr" href="jardins35fr"/>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000067')</id>
+		<title type="text">'PCUBRE0351000067'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000067')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000067</d:NUMID>
+				<d:TITRE>Parc Oberthur</d:TITRE>
+				<d:THEME>Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 23 62 19 40</d:TELEPHONE>
+				<d:WEB>http://www.metropole.rennes.fr</d:WEB>
+				<d:MAIL>dj@ville-rennes.fr</d:MAIL>
+				<d:ADRESSE1>82 et 86 bis rue de Paris</d:ADRESSE1>
+				<d:CODEPOSTAL>35000</d:CODEPOSTAL>
+				<d:INSEE>35238</d:INSEE>
+				<d:COMMUNE>Rennes</d:COMMUNE>
+				<d:LATITUDE>48.1135916</d:LATITUDE>
+				<d:LONGITUDE>-1.6609536</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Au cur de la ville, le parc Oberthur, du nom de son fondateur, François-Charles Oberthur, fut dessiné par le célèbre paysagiste Denis Buhler qui imaginera le Thabor, situé dans le même quartier. Créé en 1863-1864, le parc, au départ réservé à l'usage exclusif de la famille Oberthur, devenu propriété de la ville de Rennes en 1960, est ouvert au public depuis 1977. Allées, plan d'eau aux berges aménagées, éléments architecturaux, coin repos, pelouses accessibles et bosquets d'arbres s'agencent harmonieusement pour faire de cet espace un lieu de promenade remarquable. Le Parc Oberthur présente un grand intérêt botanique. Ouvert tous les jours de 8h00 à 18h00 ou 20h00 selon la saison.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/4C4A0379-A83A-496D-A419-F933429761ED/PCUBRE0351000067.jpg.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000068')</id>
+		<title type="text">'PCUBRE0351000068'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000068')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000068</d:NUMID>
+				<d:TITRE>Parc de Villejean</d:TITRE>
+				<d:THEME>Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 23 62 19 40</d:TELEPHONE>
+				<d:WEB>www.rennes.fr</d:WEB>
+				<d:MAIL>dj@ville-rennes.fr</d:MAIL>
+				<d:CODEPOSTAL>35000</d:CODEPOSTAL>
+				<d:INSEE>35238</d:INSEE>
+				<d:COMMUNE>Rennes</d:COMMUNE>
+				<d:LATITUDE>48.112027</d:LATITUDE>
+				<d:LONGITUDE>-1.688487</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Situé aux portes de la campagne, au nord-ouest du quartier de Villejean, ce parc propose une grande diversité d'espaces : un secteur boisé, une grande pelouse, une mare, une série de buttes, des aires de jeux pour petits et grands...Outre ces activités ludiques, le parc de Villejean présente une grande richesse botanique. Le boisement notamment, recèle une grande diversité d'arbres : pins, tilleuls, aulnes, mélèzes, cèdres, merisiers, peupliers, frênes...Dans le reste du parc, on peut admirer diverses espèces d'oiseaux.Photo D. Levasseur.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000069')</id>
+		<title type="text">'PCUBRE0351000069'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000069')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000069</d:NUMID>
+				<d:TITRE>Parc des Tanneurs</d:TITRE>
+				<d:THEME>Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 23 62 19 40</d:TELEPHONE>
+				<d:WEB>www.ville-rennes.fr</d:WEB>
+				<d:MAIL>dj@ville-rennes.fr</d:MAIL>
+				<d:ADRESSE1>6 rue Saint Martin</d:ADRESSE1>
+				<d:CODEPOSTAL>35000</d:CODEPOSTAL>
+				<d:INSEE>35238</d:INSEE>
+				<d:COMMUNE>Rennes</d:COMMUNE>
+				<d:LATITUDE>48.1193489</d:LATITUDE>
+				<d:LONGITUDE>-1.6786498</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Bordant les berges de l'Ille et les prairies Saint-Martin, ce parc est le XVIee qui s'ouvre au public. Dans un ensemble harmonieux, la propriété abrite une demeure construite au début du XIXème siècle et un parc très boisé, d'une superficie de 11 200 m². Très vallonné et composé de végétaux d'âge et d'essences intéressants, le parc est également remarquable par son calme ambiant. Le 6 rue Saint Martin a fait l'objet, en 1968, d'un classement au titre de site protégé d'Ille-et-Vilaine. Ouvert de 8h à 17h30 en hiver, et de 8h à 20h15 en été. Photo D. Levasseur.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/CBE4E20E-ED54-4D86-9D1C-5D77B1310BEE/PCUBRE0351000069.jpg.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000070')</id>
+		<title type="text">'PCUBRE0351000070'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000070')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000070</d:NUMID>
+				<d:TITRE>Parc du Thabor</d:TITRE>
+				<d:THEME>Jardin botanique | Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 23 62 19 40</d:TELEPHONE>
+				<d:WEB>http://metropole.rennes.fr/</d:WEB>
+				<d:MAIL>dj@ville-rennes.fr</d:MAIL>
+				<d:ADRESSE1>Place Saint-Melaine</d:ADRESSE1>
+				<d:CODEPOSTAL>35000</d:CODEPOSTAL>
+				<d:INSEE>35238</d:INSEE>
+				<d:COMMUNE>Rennes</d:COMMUNE>
+				<d:LATITUDE>48.1138158</d:LATITUDE>
+				<d:LONGITUDE>-1.6660573</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Situé au cur de la ville, il fait partie du patrimoine rennais avec ses magnifiques jardins à la française, ses bassins, ses arbres rares, ses statues... La roseraie et un jardin botanique contribuent à faire de ce parc l'un des plus beaux jardins publics de France. Le jardin abrite des spécimens de nombreuses espèces d'arbres : chênes, séquoias, arbres aux quarante écus... Le parc du Thabor s'étend sur 10 hectares. La Ville de Rennes en est propriétaire depuis 1802. C'est un jardin paysager créé pour le plaisir de lil en 1866 par Denis Bühler, paysagiste parisien. Ouvert tous les jours de 7H30 à 18H30 ou 20H30 selon la saison.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/7EA35BD6-B844-401F-8089-085A47D379A6/thabor-rennes-B.-Bouflet.jpg | http://cdt29.media.tourinsoft.com/upload/9B531A4C-EBF5-4C0D-B0C4-EE97F646CF45/Parc-du-Thabor.jpg | http://cdt29.media.tourinsoft.com/upload/ABFB268D-2F84-459C-9392-F6610A0C5F75/Parc-du-Thabor_1.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000071')</id>
+		<title type="text">'PCUBRE0351000071'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000071')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000071</d:NUMID>
+				<d:TITRE>Parc de Maurepas</d:TITRE>
+				<d:THEME>Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 23 62 19 40</d:TELEPHONE>
+				<d:MAIL>dj@ville-rennes.fr</d:MAIL>
+				<d:ADRESSE1>rue Courteline</d:ADRESSE1>
+				<d:CODEPOSTAL>35000</d:CODEPOSTAL>
+				<d:INSEE>35238</d:INSEE>
+				<d:COMMUNE>Rennes</d:COMMUNE>
+				<d:LATITUDE>48.1245699</d:LATITUDE>
+				<d:LONGITUDE>-1.6553477</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>L'entrée sud du parc s'ouvre sur le boulingrin composé de plates-bandes de rosiers, de buis boules, et entouré par un écrin de tilleuls taillés en rideaux. Tout près, le belvédère, reconnaissable à sa pergola entrelacée par des rosiers grimpants, offre une perspective sur le parc avec, en premier plan, la piste multi-usages ceinturée de magnolias, d'ifs panachés et des deux seuls exemplaires sur Rennes de sapins parasols. Le chemin franchit la rivière et mène aux berges bordées de saules, gunneras et bambous. Il existe également un manège, un aire de jeux et un coin des boulistes. Photo H. El Boughanni.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/5730F6B4-9CE5-42BD-953B-764D587953EE/PCUBRE0351000071.jpg.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000086')</id>
+		<title type="text">'PCUBRE0351000086'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000086')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000086</d:NUMID>
+				<d:TITRE>Les Jardins de Brocéliande</d:TITRE>
+				<d:THEME>Jardin botanique | Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 99 60 08 04</d:TELEPHONE>
+				<d:WEB>www.jardinsdebroceliande.fr</d:WEB>
+				<d:MAIL>accueil.jdb@lepommeret.fr</d:MAIL>
+				<d:ADRESSE1>Les Mesnils</d:ADRESSE1>
+				<d:CODEPOSTAL>35310</d:CODEPOSTAL>
+				<d:INSEE>35037</d:INSEE>
+				<d:COMMUNE>Bréal-sous-Montfort</d:COMMUNE>
+				<d:LATITUDE>48.0539451</d:LATITUDE>
+				<d:LONGITUDE>-1.8899063</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:HANDIMENTAL>Handicap mental</d:HANDIMENTAL>
+				<d:HANDIMOTEUR>Handicap moteur</d:HANDIMOTEUR>
+				<d:DESCRIPTIF>Lauréat des Trophées du Tourisme 2012, catégorie Tourisme Familial.
+
+100 000 visiteurs en 2014 : aux portes de Brocéliande, les 5 sens saniment ! Explorateurs en herbe, passionnés de botanique, rêveurs contemplatifs seront comblés par ces 24 hectares de jardins enchanteurs, ludiques, surprenants, décalés. Entre expériences audacieuses, parcours sensoriels et découvertes inédites, vivez la nature comme vous ne l'avez jamais fait !! Fous rires garantis !!! Acteurs de léconomie sociale et solidaire, du développement durable,  les Jardins de Brocéliande sont un lieu d'insertion de personnes en situation de handicap, différentes et compétentes.
+Nouveauté 2015 : place au  Festival  darts de la rue "Enlève tes Bigoudis !!".</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/36F56D1D-743F-4339-A573-2F647A1A5236/PCUBRE0351000086-01.jpg | http://cdt29.media.tourinsoft.com/upload/CA049EDF-8CDB-4B18-88BD-E4DEB9AD3F04/PCUBRE0351000086-02.jpg | http://cdt29.media.tourinsoft.com/upload/0B612A9E-40DB-409B-9DBA-3AA1FA6679C8/PCUBRE0351000086-04.jpg | http://cdt29.media.tourinsoft.com/upload/0B67BF18-D5A9-43A3-9D4E-2BCF50DE5C9E/PCUBRE0351000086-03.jpg | http://cdt29.media.tourinsoft.com/upload/15942F3D-C11C-4CBD-A252-4C18288C3C86/PCUBRE0351000086-05.jpg | http://cdt29.media.tourinsoft.com/upload/99360DE8-C2F2-4199-B938-EC48FB24A9AD/PCUBRE0351000086-06.jpg | http://cdt29.media.tourinsoft.com/upload/40D3333F-1D18-4A88-B10C-B190AD9ED199/PCUBRE0351000086-08.jpg | http://cdt29.media.tourinsoft.com/upload/4DEB6292-D517-40D8-8AEA-D3A14BB34F1A/PCUBRE0351000086-07.jpg | http://cdt29.media.tourinsoft.com/upload/F4060ED4-0488-42C9-973E-4C976D54BB16/PCUBRE0351000086-09.jpg | http://cdt29.media.tourinsoft.com/upload/897C684A-FCA9-436F-827A-64DF311C27B3/PCUBRE0351000086-10.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000087')</id>
+		<title type="text">'PCUBRE0351000087'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000087')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000087</d:NUMID>
+				<d:TITRE>Parc Botanique de Haute-Bretagne</d:TITRE>
+				<d:TELEPHONE>02 99 95 48 32</d:TELEPHONE>
+				<d:WEB>www.parcfloralbretagne.com</d:WEB>
+				<d:MAIL>botanique@me.com</d:MAIL>
+				<d:ADRESSE1>Château La Foltière</d:ADRESSE1>
+				<d:CODEPOSTAL>35133</d:CODEPOSTAL>
+				<d:INSEE>35071</d:INSEE>
+				<d:COMMUNE>le Châtellier</d:COMMUNE>
+				<d:LATITUDE>48.4297993</d:LATITUDE>
+				<d:LONGITUDE>-1.2607239</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:HANDIAUDITIF>Handicap auditif</d:HANDIAUDITIF>
+				<d:HANDIMENTAL>Handicap mental</d:HANDIMENTAL>
+				<d:HANDIMOTEUR>Handicap moteur</d:HANDIMOTEUR>
+				<d:DESCRIPTIF>Créé en 1847, le parc s'étend sur 25 hectares; il acclimate les essences des différents continents dans 24 jardins thématiques regroupés dans trois ensembles qui évoquent les trois saisons d'une vie: le printemps, l'été, l'automne; ce sont : les jardins de l'Arcadie, les jardins romantiques et les jardins du crépuscule..."Ce parc de rêve, ce dédale de plaisirs... est ouvert sur la beauté désarmante du paysage breton. La diversité des plantes, des fleurs, des points de vue, offre au visiteur une promenade de charme éternellement dépaysante"... 
+Les enfants découvriront un univers botanique fantastique à la recherche du tyrannosaure dans le jardin préhistorique, du minotaure dans le labyrinthe musical de Knossos, de l'antre des plantes carnivores...</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/D3A62AC1-35D6-4C39-BE54-4AFE4FAEB5A5/Parc-botanique-de-Haute-Bretagne_1.jpg | http://cdt29.media.tourinsoft.com/upload/E14B272C-CA29-4484-A15B-D5D366BEB5C0/Parc-Botanique-de-Haute-Bretagne_10.jpg | http://cdt29.media.tourinsoft.com/upload/9A3C7F64-8FE3-4100-81C0-42F665462F4B/PCUBRE0351000087-1.jpg | http://cdt29.media.tourinsoft.com/upload/42AC0576-2FA5-42E0-BF21-ADAA17A46D70/PCUBRE0351000087-4.jpg | http://cdt29.media.tourinsoft.com/upload/296FB06B-A4B5-41BE-8BCC-00A5A06FF92C/PCUBRE0351000087-3.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000100')</id>
+		<title type="text">'PCUBRE0351000100'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000100')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000100</d:NUMID>
+				<d:TITRE>Le Domaine de la Briantais</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 81 83 42</d:TELEPHONE>
+				<d:FAX>02 99 82 51 56</d:FAX>
+				<d:WEB>www.ville-saint-malo.fr</d:WEB>
+				<d:MAIL>deep@saint-malo.fr</d:MAIL>
+				<d:ADRESSE1>Rue Maurice Nogues</d:ADRESSE1>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.6194348</d:LATITUDE>
+				<d:LONGITUDE>-2.0147895</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Le Château a été construit à partir de 1864, en remplacement d'un vieux manoir du XVIIème siècle qui appartenait à  de notables armateurs malouins. La famille La Chambre en devient propriétaire en 1888. Il est entouré d'un parc de 27 hectares surplombant la Tour Solidor, et la vallée de la Rance. Parc ouvert de 9h à 19h en juillet et août. Ouvert de 14h à 17h ou 18h en semaine hors saison, et de 9h à 17h ou 19h les week-ends et jours fériés toujours en basse saison. Parc avec vues sur mer. Renseignements : ville de Saint Malo - Direction de l'Environnement et de l'Espace Public - Division des Espaces verts. 02 99 81 83 42 pour tout renseignement complémentaire.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/4CECC4CF-0833-47A8-9B65-762C434CC0D0/Dinard-vu-de-la-Briantais.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000137')</id>
+		<title type="text">'PCUBRE0351000137'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000137')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000137</d:NUMID>
+				<d:TITRE>Le Parc Marcel Boisnard</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 43 98 69</d:TELEPHONE>
+				<d:MAIL>si-baindebretagne@wanadoo.fr</d:MAIL>
+				<d:ADRESSE1>Rue des Rhododendrons</d:ADRESSE1>
+				<d:CODEPOSTAL>35620</d:CODEPOSTAL>
+				<d:INSEE>35106</d:INSEE>
+				<d:COMMUNE>Ercé-en-Lamée</d:COMMUNE>
+				<d:LATITUDE>47.8298823</d:LATITUDE>
+				<d:LONGITUDE>-1.5558303</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>L'ordonnance de ce jardin public, classé Domaine naturel départemental, a été repensée pour mettre en valeur toutes les espèces qui s'y trouvaient à foison (arbustes, rosiers, rhododendrons, bambou, plantes vivaces...). Cet espace d'une superficie d'environ 2 ha rassemble une collection extraordinaire de rhododendrons qui, au moment de leur floraison, éclatent dans un feu d'artifice de couleurs. Les visiteurs pourront admirer dans toute leur splendeur ces collections horticoles, nichées dans leur écrin et rendues accessibles par la création judicieuse d'allées sablées, de pergolas, d'un jardin aquatique, d'un kiosque. Entrée gratuite.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/5A308B12-76F2-4263-9ECD-7F466808F819/PCUBRE0351000137-1.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000140')</id>
+		<title type="text">'PCUBRE0351000140'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000140')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000140</d:NUMID>
+				<d:TITRE>Le Jardin de Bel Air</d:TITRE>
+				<d:THEME>Jardin botanique</d:THEME>
+				<d:TELEPHONE>02 99 96 93 05</d:TELEPHONE>
+				<d:MAIL>mairielepertre@lepertre.fr</d:MAIL>
+				<d:CODEPOSTAL>35370</d:CODEPOSTAL>
+				<d:INSEE>35217</d:INSEE>
+				<d:COMMUNE>Le Pertre</d:COMMUNE>
+				<d:LATITUDE>48.037415</d:LATITUDE>
+				<d:LONGITUDE>-1.162368</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Le jardin de Bel-Air est un magnifique jardin à la française classé, conçu en 1920 par le paysagiste Rotonde. Surplombant la Mayenne, il offre un large panorama sur ce département. Les espaces verts de la propriété sont divisés en trois parties, 8 ha de parc, dont le jardin à la française, 8 ha de vergers et le potager. Différentes plantations agrémentent le site, des parterres d'hortensias et de fuchsias qui remplacent les millepertuis, des rhododendrons et des massifs de sauge. Bel-Air, un havre de paix dans un écrin verdoyant, à découvrir pendant l'opération de juin « Visitez un jardin en France ».</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000141')</id>
+		<title type="text">'PCUBRE0351000141'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000141')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000141</d:NUMID>
+				<d:TITRE>Parc du Château de Boiscornillé</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:MOBILE>06 07 79 11 32</d:MOBILE>
+				<d:MAIL>boiscornille@numericable.fr</d:MAIL>
+				<d:ADRESSE1>Rue du Château</d:ADRESSE1>
+				<d:CODEPOSTAL>35450</d:CODEPOSTAL>
+				<d:INSEE>35347</d:INSEE>
+				<d:COMMUNE>Val-d'Izé</d:COMMUNE>
+				<d:LATITUDE>48.1711228</d:LATITUDE>
+				<d:LONGITUDE>-1.3149261</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Conçu au 19e siècle par les célèbres paysagistes Denis Bühler et Edouard André, le parc du Boiscornillé (ISMH, site classé) déploie sur plus de 50 ha ses terrasses, parterres, étangs et bassins, prairies paysagées et allées forestières. Au cur de cet écrin boisé, les tours, flèches et tourelles de la belle demeure gothique-troubadour ont le charme du château de la Belle au bois dormant. Les visiteurs apprécieront l'architecture du château et de la chapelle, l'intimité du jardin à la française, le charme de l'étang muré, les nombreuses allées ombragées, la tribune d'honneur surplombant la cour d'arrivée avec sa vue sur la campagne environnante et les clochers. Entrée gratuite pour les enfants de moins de 18 ans.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/1F52699A-DD9E-47C5-8CBE-3380ECE4E7A9/Parc-du-Chateau-de-Boiscornille.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000142')</id>
+		<title type="text">'PCUBRE0351000142'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000142')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000142</d:NUMID>
+				<d:TITRE>Le Jardin du Parc de Vitré</d:TITRE>
+				<d:THEME>Jardin botanique</d:THEME>
+				<d:TELEPHONE>02 99 75 04 54</d:TELEPHONE>
+				<d:ADRESSE1>Boulevard de Châteaubriant</d:ADRESSE1>
+				<d:CODEPOSTAL>35500</d:CODEPOSTAL>
+				<d:INSEE>35360</d:INSEE>
+				<d:COMMUNE>Vitré</d:COMMUNE>
+				<d:LATITUDE>48.0800286</d:LATITUDE>
+				<d:LONGITUDE>-1.1673831</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Créé sur un dessin de 1867 de l'architecte paysagiste parisien Georges Aumont, le Jardin du Parc de Vitré est un bel exemple des grands jardins publics dont les villes s'ornèrent dans la 2ème moitié du XIXe s., avec des essences d'arbres choisies, un intéressant kiosque à musique, une belle pièce d'eau. Ce parc de 7 ha est par ailleurs agrémenté d'une volière et d'un enclos de daims. Ouvert toute l'année. Gratuit.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000143')</id>
+		<title type="text">'PCUBRE0351000143'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000143')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000143</d:NUMID>
+				<d:TITRE>Le Pré des Lavandières</d:TITRE>
+				<d:THEME>Jardin botanique</d:THEME>
+				<d:TELEPHONE>02 99 75 04 46</d:TELEPHONE>
+				<d:FAX>02 99 74 02 01</d:FAX>
+				<d:WEB>www.ot-vitre.fr</d:WEB>
+				<d:MAIL>info@ot-vitre.fr</d:MAIL>
+				<d:CODEPOSTAL>35500</d:CODEPOSTAL>
+				<d:INSEE>35360</d:INSEE>
+				<d:COMMUNE>Vitré</d:COMMUNE>
+				<d:LATITUDE>48.1252808</d:LATITUDE>
+				<d:LONGITUDE>-1.2147188</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Jardin conçu en 1986 par Erwan Tymen, Cet espace préservé au bord de la Vilaine peut apparaître comme un lieu secret : il est situé en bordure de rivière, au pied du château, accessible par un petit passage situé dans la rue du Val, d'où l'on voit les anciens lavoirs. Ce jardin possède des plantes hygrophiles (se développant mieux en milieu humide). Ouvert toute l'année. Gratuit.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000144')</id>
+		<title type="text">'PCUBRE0351000144'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000144')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000144</d:NUMID>
+				<d:TITRE>Parc du Château des Rochers Sévigné</d:TITRE>
+				<d:THEME>Jardin botanique</d:THEME>
+				<d:TELEPHONE>02 99 75 04 54</d:TELEPHONE>
+				<d:MAIL>stephane.gautier@mairie-vitre.fr</d:MAIL>
+				<d:ADRESSE1>Château des Rochers-Sévigné</d:ADRESSE1>
+				<d:ADRESSE1S>Route d'Argentré-du-Plessis</d:ADRESSE1S>
+				<d:CODEPOSTAL>35500</d:CODEPOSTAL>
+				<d:INSEE>35360</d:INSEE>
+				<d:COMMUNE>Vitré</d:COMMUNE>
+				<d:LATITUDE>48.0800182</d:LATITUDE>
+				<d:LONGITUDE>-1.1682916</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:DESCRIPTIF>Depuis 1689, le château des Rochers-Sévigné est orné de jardins. A l'époque, la mode optait pour des parterres à l'anglaise avec des allées sablées et des plates-bandes délimitées par des haies de buis renfermant des fleurs composées en « émail ». Désormais ce sont des jardins à la française, inspirés des dessins de Le Nôtre, qui agrémentent le parc de beaux parterres. La Marquise de Sévigné avait baptisé les allées du bois « allées de la Solitaire, de l'Infini, l'Humeur de ma fille ». La visite des jardins a lieu avec celle du château.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/2CB5086F-C48C-484A-9FDD-AA6CE870F75F/chateau-rochers-sevigne-vitre1.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000147')</id>
+		<title type="text">'PCUBRE0351000147'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000147')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000147</d:NUMID>
+				<d:TITRE>Parc du Château de Bonnefontaine</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 98 31 13</d:TELEPHONE>
+				<d:MOBILE>06 24 53 41 28</d:MOBILE>
+				<d:FAX>02 99 98 31 13</d:FAX>
+				<d:WEB>www.bonnefontaine.com</d:WEB>
+				<d:MAIL>contact@bonnefontaine.com</d:MAIL>
+				<d:ADRESSE1>Château de Bonnefontaine</d:ADRESSE1>
+				<d:CODEPOSTAL>35560</d:CODEPOSTAL>
+				<d:INSEE>35004</d:INSEE>
+				<d:COMMUNE>Antrain</d:COMMUNE>
+				<d:LATITUDE>48.419919</d:LATITUDE>
+				<d:LONGITUDE>-1.557060</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Château Renaissance construit par un chambellan de la Duchesse Anne au XVe siècle. Agrandi au XVIe et restauré au XIXe siècle, il est mis sous le patronage de l'archange Saint-Michel. Parc dessiné par les paysagiste Edouard André et Denis Bühler. De grands espaces de bosquets et de verdure, d'étangs et de ruisseaux mettent en valeur les tours du château. Le Parc paysagé est de style anglais. Ouvert de Pâques à la Toussaint de 14H à 18H. 
+Lieu d'événements: Grande Orangerie, ancienne écurie rénovée,métairie.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/6F811B74-C346-48B3-91EC-B291C1982CA8/Parc-du-Chateau-de-Bonnefontaine_2.jpg | http://cdt29.media.tourinsoft.com/upload/7C389F52-E1AF-4886-BC8A-7D8546443BFB/Parc-du-Chateau-de-Bonnefontaine_1.jpg | http://cdt29.media.tourinsoft.com/upload/75D4090D-EF47-4E97-A16C-0059C752CC00/Parc-du-Chateau-de-Bonnefontaine.jpg | http://cdt29.media.tourinsoft.com/upload/1CE827FC-EEA2-42ED-B0EE-3B4069C665BD/PCUBRE0351000147-1.jpg | http://cdt29.media.tourinsoft.com/upload/12D80BD1-805C-45FD-8B94-09B7924997F2/PCUBRE0351000147-2.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000150')</id>
+		<title type="text">'PCUBRE0351000150'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000150')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000150</d:NUMID>
+				<d:TITRE>Parc du Château de Caradeuc</d:TITRE>
+				<d:THEME>Jardin remarquable | Parc</d:THEME>
+				<d:TELEPHONE>02 99 66 81 10</d:TELEPHONE>
+				<d:WEB>www.caradeuc.com</d:WEB>
+				<d:MAIL>contact@caradeuc.com</d:MAIL>
+				<d:ADRESSE1>Caradeuc</d:ADRESSE1>
+				<d:CODEPOSTAL>35190</d:CODEPOSTAL>
+				<d:INSEE>35022</d:INSEE>
+				<d:COMMUNE>Bécherel</d:COMMUNE>
+				<d:LATITUDE>48.323373</d:LATITUDE>
+				<d:LONGITUDE>-1.892826</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Ce vaste parc de 40 ha a été dessiné en 1898 par l'architecte-paysagiste Edouard André, à la demande du Comte de Kernier. Situé sur les collines boisées de Bécherel, il sert d'écrin au château de Caradeuc, demeure classique du XVIIIe siècle, ayant appartenu au Procureur Général Louis-René Caradeuc de la Chalotais.  Des parterres à la française bordent l'allée d'arrivée. Puis de longues allées rectilignes, animées de statues, de monuments et de multiples vases emmènent les promeneurs à travers la mythologie et l'histoire. Magnifique panorama. Label "Jardin remarquable".</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/DF100AF1-BCFF-4AA9-BD77-AD012C763906/parc-caradeuc-becherel.jpg | http://cdt29.media.tourinsoft.com/upload/4F62C997-9797-43F5-918A-721A07F66855/parc-caradeuc-becherel1.jpg | http://cdt29.media.tourinsoft.com/upload/AB13893B-5C98-430C-89B1-38CBF490726A/parc-caradeuc-becherel3.jpg | http://cdt29.media.tourinsoft.com/upload/56DC8087-3D7C-4FA2-A8B1-F2111F6A2A2B/parc-caradeuc-becherel2.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000151')</id>
+		<title type="text">'PCUBRE0351000151'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000151')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000151</d:NUMID>
+				<d:TITRE>Parc et Mémorial de la Herverie</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 05 56 56</d:TELEPHONE>
+				<d:WEB>www.ville-bruz.fr</d:WEB>
+				<d:MAIL>office.de.tourisme.bruz@wanadoo.fr</d:MAIL>
+				<d:ADRESSE1>Rue des planches</d:ADRESSE1>
+				<d:CODEPOSTAL>35170</d:CODEPOSTAL>
+				<d:INSEE>35047</d:INSEE>
+				<d:COMMUNE>Bruz</d:COMMUNE>
+				<d:LATITUDE>48.0235253</d:LATITUDE>
+				<d:LONGITUDE>-1.7503318</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>A l'emplacement du Parc de la Herverie se dressait le château de la famille de la Herverie, château des Planches, détruit lors du bombardement le 8 mai 1944. Aujourd'hui, une grande variété d'arbres orne le parc tels les magnolias à grandes fleurs, les sorbiers des oiseaux, les pins sylvestres, les ifs et bien d'autres... Cet espace est aussi dédié au Souvenir avec son Mémorial qui retrace les tragiques bombardements de Bruz. Dépliant sur la Mémoire de Bruz disponible à l'Office de Tourisme de Bruz. Zone de Jeux pour les enfants. Entrée gratuite.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000152')</id>
+		<title type="text">'PCUBRE0351000152'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000152')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000152</d:NUMID>
+				<d:TITRE>Parc Connen</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 05 56 56</d:TELEPHONE>
+				<d:MAIL>office.de.tourisme.bruz@wanadoo.fr</d:MAIL>
+				<d:ADRESSE1>Rue Gaudrine</d:ADRESSE1>
+				<d:CODEPOSTAL>35170</d:CODEPOSTAL>
+				<d:INSEE>35047</d:INSEE>
+				<d:COMMUNE>Bruz</d:COMMUNE>
+				<d:LATITUDE>48.0213247</d:LATITUDE>
+				<d:LONGITUDE>-1.7463510</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Parmi les essences intéressantes, vous pourrez admirer le pin de Monterey. Localisé en Australie et en Californie, assez commun en Bretagne, il s'y est très bien adapté notamment dans les sables du littoral. Entrée gratuite.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000153')</id>
+		<title type="text">'PCUBRE0351000153'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000153')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000153</d:NUMID>
+				<d:TITRE>Jardin du Manoir de Bourgchevreuil (XVIIe siècle)</d:TITRE>
+				<d:TELEPHONE>02 99 83 52 00</d:TELEPHONE>
+				<d:FAX>02 77 41 01 04</d:FAX>
+				<d:WEB>www.ville-cesson-sevigne.fr</d:WEB>
+				<d:MAIL>service-loisirs@ville-cesson-sevigne.fr</d:MAIL>
+				<d:ADRESSE1>Mail de Bourchevreuil</d:ADRESSE1>
+				<d:CODEPOSTAL>35517</d:CODEPOSTAL>
+				<d:INSEE>35051</d:INSEE>
+				<d:COMMUNE>Cesson-Sévigné</d:COMMUNE>
+				<d:LATITUDE>48.123476</d:LATITUDE>
+				<d:LONGITUDE>-1.593370</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Ecrin foral et botanique situé au coeur de la ville de Cesson-Sévigné, le Parc du Manoir de Bourgchevreuil accueille un charmant jardin à la française. Fleuri toute l'année, il abrite également une abondante roseraie. Rosiers grimpants modernes, rosiers buissonnants, à grosses fleurs, ou en bouquets, polyanthas, rosiers anciens... coexistent dans un espace bordé d'une haie de charmilles. Autre curiosité : inspiré des parcs médiévaux, le jardin de plantes aromatiques et médicinales parfume le lieu de fragrance délicates de sauge, mélisse, thyms, menthes, absinthe,... A voir aussi le jardin de curé et la volière. Ouvert toute l'année, entrée gratuite.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/68616925-1231-4874-B659-2093E72BB971/parc-bourgchevreuil-cesson.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000154')</id>
+		<title type="text">'PCUBRE0351000154'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000154')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000154</d:NUMID>
+				<d:TITRE>Parc du Manoir de la Chalotais</d:TITRE>
+				<d:THEME>Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 99 83 52 00</d:TELEPHONE>
+				<d:FAX>02 77 41 01 04</d:FAX>
+				<d:WEB>www.ville-cesson-sevigne.fr</d:WEB>
+				<d:MAIL>mairie@ville-cesson-sevigne.fr</d:MAIL>
+				<d:CODEPOSTAL>35510</d:CODEPOSTAL>
+				<d:INSEE>35051</d:INSEE>
+				<d:COMMUNE>Cesson-Sévigné</d:COMMUNE>
+				<d:LATITUDE>48.123476</d:LATITUDE>
+				<d:LONGITUDE>-1.593370</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Ancien fief des Seigneurs de Sévigné et de Cucé, la ville de Cesson-Sévigné offre un paysage unique. Traversée par la Vilaine qui dédie onze kilomètres de berges, la cité des Sévigné concentre sur son territoire six parcs et jardins publics de qualité. Attenant au Manoir du XVIIe siècle, le parc de la Chalotais abrite le conservatoire régional botanique du fuschia. Dit aussi Jardin de la Marquise de Sévigné, avec ses chênes séculaires, sa serre et son embarcadère pittoresques, le parc dessine un espace poétique au coeur de la ville. Le chemin jalonné de statues de Jean Boucher (sculpteur ici né en 1870), vous conduira au parc du Manoir de Bourgchevreuil. Ouvert toute l'année,entrée gratuite</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/7E146F08-B5F5-409D-8DF8-832EEE119181/parc-chalotais-cesson.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000155')</id>
+		<title type="text">'PCUBRE0351000155'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000155')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000155</d:NUMID>
+				<d:TITRE>Parc de Champagné</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 83 52 00</d:TELEPHONE>
+				<d:FAX>02 77 41 01 04</d:FAX>
+				<d:WEB>www.ville-cesson-sevigne.fr</d:WEB>
+				<d:MAIL>mairie@ville-cesson-sevigne.fr</d:MAIL>
+				<d:CODEPOSTAL>35517</d:CODEPOSTAL>
+				<d:INSEE>35051</d:INSEE>
+				<d:COMMUNE>Cesson-Sévigné</d:COMMUNE>
+				<d:LATITUDE>48.123476</d:LATITUDE>
+				<d:LONGITUDE>-1.593370</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Ancien fief des Seigneurs de Sévigné et de Cucé, la ville de Cesson-Sévigné offre un paysage unique. Traversée par la Vilaine qui dédie onze kilomètres de berges, la cité des Sévigné concentre sur son territoire six parcs et jardins publics de qualité. Entourée d'eau, à l'ombre du tulipier de Virginie et du paulownia tomentosa, l'ancienne prairie du Parc de Champagné a la faveur des promeneurs, des pêcheurs à la ligne, des joueurs de boule... Vue imprenable sur les Vieux Ponts gallos-romains et sur l'ancien moulin, nobles gardiens de l'entrée de la ville de Cesson-Sévigné.Ouvert toute l'année, entrée gratuite.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/418E4EF6-0B28-413A-9244-1A20CC2A2556/parc-champagne-cesson.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000156')</id>
+		<title type="text">'PCUBRE0351000156'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000156')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000156</d:NUMID>
+				<d:TITRE>Parc de Dézerseul</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 83 52 00</d:TELEPHONE>
+				<d:FAX>02 77 41 01 04</d:FAX>
+				<d:WEB>www.ville-cesson-sevigne.fr</d:WEB>
+				<d:MAIL>mairie@ville-cesson-sevigne.fr</d:MAIL>
+				<d:CODEPOSTAL>35517</d:CODEPOSTAL>
+				<d:INSEE>35051</d:INSEE>
+				<d:COMMUNE>Cesson-Sévigné</d:COMMUNE>
+				<d:LATITUDE>48.123476</d:LATITUDE>
+				<d:LONGITUDE>-1.593370</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Ancien fief des Seigneurs de Sévigné et de Cucé, la ville de Cesson-Sévigné offre un paysage unique. Traversée par la Vilaine qui dédie onze kilomètres de berges, la cité des Sévigné concentre sur son territoire six parcs et jardins publics de qualité. Depuis le Parc de Champagné, fleurs, arbres et arbustes vous guideront jusqu'à la coulée verte du Parc de Dézerseul, parcouru d'étangs et des sentiers pédestres. Ouvert toute l'année, entrée gratuite.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000158')</id>
+		<title type="text">'PCUBRE0351000158'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000158')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000158</d:NUMID>
+				<d:TITRE>Parc du Château de Combourg</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 73 22 95</d:TELEPHONE>
+				<d:FAX>02 99 73 22 95</d:FAX>
+				<d:WEB>www.chateau-combourg.com</d:WEB>
+				<d:ADRESSE1>23 rue des Princes</d:ADRESSE1>
+				<d:CODEPOSTAL>35270</d:CODEPOSTAL>
+				<d:INSEE>35085</d:INSEE>
+				<d:COMMUNE>Combourg</d:COMMUNE>
+				<d:LATITUDE>48.4077553</d:LATITUDE>
+				<d:LONGITUDE>-1.7538471</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Immortalisé par Francois René de Chateaubriand dans les mémoires doutre-tombe : «... cest dans les bois de Combourg que je suis devenu ce que je suis... » le parc du Château de Combourg fut redessiné à l'Anglaise par Denis Bühler en 1875, lors de la restauration. On retrouve aujourd'hui les allées et certains de ces hêtres, chênes, tilleuls, vieux de deux siècles... dont parle Chateaubriand et qui continuent à imposer au parc leur air majestueux. Vous y un découvririez également un faux cyprée de plus de 200 ans labellisé arbre remarquable en 2012 ainsi que la « rose Chateaubriand » primée  au concours des roses nouvelles de Rome en 2009. Visite libre du parc de 25 hectares et visite intérieure guidée du château.
+février/mars/novembre : ouvert pendant les vacances scolaires 10h-12h30/14h-17h.  
+Avril, mai, juin, sept, octobre, fermé le samedi et dimanche matin, ouvert de 10h-12h30/14h-18h. 
+Juillet et août, tous les jours, 10h-12h30/14h-18h. 
+Adultes : 3,5 euros.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/203A72D5-EB68-438B-AAEE-A175986D8708/PCUBRE0351000045-2.jpg | http://cdt29.media.tourinsoft.com/upload/AB325E47-6C07-4680-908D-B49349814872/Vue-Aerienne-Combourg-Editions-Jack.png</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000161')</id>
+		<title type="text">'PCUBRE0351000161'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000161')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000161</d:NUMID>
+				<d:TITRE>Parc de Port Breton</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 46 94 12</d:TELEPHONE>
+				<d:MAIL>info@ot-dinard.com</d:MAIL>
+				<d:ADRESSE1>9 avenue de la Libération</d:ADRESSE1>
+				<d:ADRESSE1S>(face à la Plage du Prieuré)</d:ADRESSE1S>
+				<d:CODEPOSTAL>35800</d:CODEPOSTAL>
+				<d:INSEE>35093</d:INSEE>
+				<d:COMMUNE>Dinard</d:COMMUNE>
+				<d:LATITUDE>48.6228462</d:LATITUDE>
+				<d:LONGITUDE>-2.0528825</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:DESCRIPTIF>Face à la plage du Prieuré, ce parc municipal de 23 hectares, arboré et fleuri, est composé d'une roseraie de 2000 plants, dont la Rose Picasso, et possède un fleurissement varié  et pérenne. Riche d'environ 2500 arbres, on y trouve des essences remarquables : ormes, houx à feuilles de châtaignier ou à feuilles de fougères, un cyprès chauve, un hêtre à feuilles de fougères, des séquoïas, des hortensias grimpants... Parcours à travers le parc sous forme de calendrier celtique, parc animalier, parcours sportif, aire de jeux pour enfants, plan d'eau...Entrée libre.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/4556BDBA-9BF2-4701-AA79-E318295E8441/PCUBRE0351000161.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000162')</id>
+		<title type="text">'PCUBRE0351000162'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000162')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000162</d:NUMID>
+				<d:TITRE>Jardin du Val Nançon</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 94 12 20</d:TELEPHONE>
+				<d:WEB>www.ot-fougeres.fr</d:WEB>
+				<d:MAIL>tourisme@ot-fougeres.fr</d:MAIL>
+				<d:ADRESSE1>Boulevard de Rennes</d:ADRESSE1>
+				<d:CODEPOSTAL>35300</d:CODEPOSTAL>
+				<d:INSEE>35115</d:INSEE>
+				<d:COMMUNE>Fougères</d:COMMUNE>
+				<d:LATITUDE>48.351194</d:LATITUDE>
+				<d:LONGITUDE>-1.195506</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Ce Jardin est aménagé dans une vallée encaissée le long de la rivière du Nançon, au pied des remparts nord de la ville. Site à vocation industrielle au début du siècle puis occupé par des jardins familiaux, le Val Nançon s'étend sur 2ha et se caractérise par une succession d'ambiances à découvrir au fur et à mesure de la promenade. On y trouve, en particulier, un jardin botanique, un jardin de curé, témoignage de la présence à proximité des ruines d'une ancienne abbaye, une cage végétale et un côteau coloré. Enfin, "l'oeuvre à la vie" est une sculpture contemporaine de verre signée Louis-Marie Catta en 2000, symbole de la paix et de la rencontre des cultures du monde.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/C88E96DA-C1E0-4C1D-B4AF-AA1C5FEFFCF8/Jardin-du-Val-Nancon_3.jpg | http://cdt29.media.tourinsoft.com/upload/07EAD634-A1BA-4AC2-8F5D-A12EE264F8AD/Jardin-du-Val-Nancon_2.jpg | http://cdt29.media.tourinsoft.com/upload/756AC651-80EE-4576-A0C8-EF19C0852E9F/Jardin-du-Val-Nancon_4.jpg | http://cdt29.media.tourinsoft.com/upload/0450E9EB-3E68-48E9-ABD3-FE246DC14A01/Jardin-du-Val-Nancon_5.jpg | http://cdt29.media.tourinsoft.com/upload/2FA81137-2CCD-498D-BC52-3F994932654F/Jardin-du-Val-Nancon_1.jpg | http://cdt29.media.tourinsoft.com/upload/DED4E9D3-4E9C-494B-89BC-2D5B085CC816/Jardin-du-Val-Nancon.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000163')</id>
+		<title type="text">'PCUBRE0351000163'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000163')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000163</d:NUMID>
+				<d:TITRE>Jardin Public de Fougères</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 94 12 20</d:TELEPHONE>
+				<d:MAIL>tourisme@ot-fougeres.fr</d:MAIL>
+				<d:ADRESSE1>Rue des Vallées</d:ADRESSE1>
+				<d:CODEPOSTAL>35300</d:CODEPOSTAL>
+				<d:INSEE>35115</d:INSEE>
+				<d:COMMUNE>Fougères</d:COMMUNE>
+				<d:LATITUDE>48.3512411</d:LATITUDE>
+				<d:LONGITUDE>-1.2062889</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>A la fin du XVIIIe s. est constitué le premier jardin, appelé Place aux Arbres. Grâce à l'intervention d'Albert Durand, Président du Syndicat d'Initiative en 1913, le maire de l'époque obtient le classement de la Place aux Arbres parmi les sites et monuments naturels de caractère artistique. Le jardin se développe sur 3 niveaux : la Place aux Arbres offre un panorama sur les origines de la ville, surplombant le château et le quartier médiéval autour de l'église St-Sulpice ; la Place Leroux aux allées bordées de buis encadrent un bassin du XVIIe s. en granit ; un fougerarium, sur la rive gauche du Nançon, fait découvrir plus de 50 espèces de fougères provenant d'Asie, de Russie ou d'Amérique.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/4B684D65-2E59-4139-A00D-AFEB50E284B5/Jardin-Public-de-Fougeres_4.jpg | http://cdt29.media.tourinsoft.com/upload/DDD5E081-F02A-4E42-98DA-8BE77146E521/Jardin-Public-de-Fougeres_1.jpg | http://cdt29.media.tourinsoft.com/upload/D88CCA7F-1888-4712-A767-6CA892E224A9/Jardin-Public-de-Fougeres.jpg | http://cdt29.media.tourinsoft.com/upload/9B446799-F640-4048-BC69-DF1F4D522F96/Jardin-Public-de-Fougeres_9.jpg | http://cdt29.media.tourinsoft.com/upload/513D3884-AC04-4205-A8C7-9156A27B709D/Jardin-Public-de-Fougeres_2.jpg | http://cdt29.media.tourinsoft.com/upload/07F2F206-DDC6-4B6C-97C0-B08A2D8D18BB/Jardin-Public-de-Fougeres_5.jpg | http://cdt29.media.tourinsoft.com/upload/9D2B0C09-2191-4EB9-B8E6-DDAA366A291F/Jardin-Public-de-Fougeres_8.jpg | http://cdt29.media.tourinsoft.com/upload/7B2E94A9-F146-4B05-B36D-DD197F45F053/Jardin-Public-de-Fougeres_7.jpg | http://cdt29.media.tourinsoft.com/upload/2FA51AD6-4307-430C-BB54-984EA8063AF5/Jardin-Public-de-Fougeres_3.jpg | http://cdt29.media.tourinsoft.com/upload/1EF4A00E-48BA-4950-B84D-B432AF626E6C/Jardin-Public-de-Fougeres_6.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000164')</id>
+		<title type="text">'PCUBRE0351000164'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000164')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000164</d:NUMID>
+				<d:TITRE>Le Jardin Anglais du Manoir de la Chaussée - Port de Roche</d:TITRE>
+				<d:TELEPHONE>02 99 08 64 41</d:TELEPHONE>
+				<d:FAX>02 99 08 64 41</d:FAX>
+				<d:MAIL>inquiry@au-chateau.com</d:MAIL>
+				<d:ADRESSE1>Port de Roche</d:ADRESSE1>
+				<d:CODEPOSTAL>35660</d:CODEPOSTAL>
+				<d:INSEE>35145</d:INSEE>
+				<d:COMMUNE>Langon</d:COMMUNE>
+				<d:LATITUDE>47.73479</d:LATITUDE>
+				<d:LONGITUDE>-1.833392</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Création successive des propriétaires anglais depuis 1988, ce jardin de 4 ha vous invite à une promenade d'ambiance anglaise : vivaces et arbustes de collection, roseraie avec buis taillés, jardin méditerranéen, sous-bois. Il profite de la douceur du climat de la Vallée de Redon. En constante évolution,  le site se déploie avec des végétaux variés et rares soit plus de 10 000 plantes. On peut y trouver une roseraie (450 roses  de David Austin), l'arboretum, les plans d'eau, et le sous-bois aménagés dans un site naturel d'ambiance anglaise. C'est un compromis entre le style anglais paysager et celui français plus formel. Visite du 1er mai à fin octobre tous les jours, 10H-19</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000165')</id>
+		<title type="text">'PCUBRE0351000165'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000165')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000165</d:NUMID>
+				<d:TITRE>Le Parc des Senteurs</d:TITRE>
+				<d:THEME>Jardin d'agrément | Parc</d:THEME>
+				<d:TELEPHONE>02 99 68 31 45</d:TELEPHONE>
+				<d:FAX>02 99 68 39 24</d:FAX>
+				<d:WEB>www.ville-liffre.fr</d:WEB>
+				<d:MAIL>contact@ville-liffre.fr</d:MAIL>
+				<d:ADRESSE1>Rue de l'Étang-Parc Léo Lagrange</d:ADRESSE1>
+				<d:CODEPOSTAL>35340</d:CODEPOSTAL>
+				<d:INSEE>35152</d:INSEE>
+				<d:COMMUNE>Liffré</d:COMMUNE>
+				<d:LATITUDE>48.2118660</d:LATITUDE>
+				<d:LONGITUDE>-1.5004461</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Ce jardin vous propose des ambiances différentes et tentera d'attirer votre attention en toute saison. Vous y découvrirez : des arbustes à floraison abondante, au parfum envoûtant ou surprenant, des arbres étonnants, une collection de rosiers anciens et contemporains. Le long des pergolas, les roses, en massif ou grimpantes, vous offriront de beaux nuanciers de couleurs et de parfums. Des plantations par thème y ont été également réalisées : plantes et arbustes aux fruits décoratifs, aux formes diverses, plantes de terre de bruyère, aromatiques, petits massifs aux coloris dominants. Ouvert toute l'année.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000167')</id>
+		<title type="text">'PCUBRE0351000167'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000167')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000167</d:NUMID>
+				<d:TITRE>Les Jardins de la Malouinière du Montmarin</d:TITRE>
+				<d:THEME>Jardin d'agrément | Jardin remarquable</d:THEME>
+				<d:TELEPHONE>02 99 88 58 79</d:TELEPHONE>
+				<d:WEB>www.domaine-du-montmarin.com</d:WEB>
+				<d:MAIL>tlfmontmarin@orange.fr</d:MAIL>
+				<d:ADRESSE1>Chateau du Montmarin</d:ADRESSE1>
+				<d:CODEPOSTAL>35730</d:CODEPOSTAL>
+				<d:INSEE>35228</d:INSEE>
+				<d:COMMUNE>Pleurtuit</d:COMMUNE>
+				<d:LATITUDE>48.5999685</d:LATITUDE>
+				<d:LONGITUDE>-2.0265608</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Malouinière construite en 1760. Le Montmarin se transforme dès 1782 en port et chantier naval où travaillent 1200 personnes. Cette activité s'arrête avec l'arrivée de la vapeur en 1840. Le Montmarin redevient jardin d'agrément avec des collections botaniques. Seule malouinière sur la rive gauche de la Rance, le Montmarin s'ouvre sur un plan d'eau de plus d'1km de large. Ses jardins se composent de 2 parties : le jardin à la française du XVIIIe et le jardin romantique de 1885 avec bosquets, pelouses, rocailles, massifs... descendant jusqu'à la Rance par 4 plans de terrasses successifs. Ouverts d'avril à octobre tous les jours sauf samedi de 14H à 18H. Jardins classés MH, Jardins Remarquables.
+1er week-end mai : Journées des plantes rares 10h-18h
+10 au 17 août : Journées des Agapanthes 14h-19h</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/21975F12-B1E8-4B28-81D1-09ADCB3D51F8/Les-Jardins-du-Montmarin.jpg | http://cdt29.media.tourinsoft.com/upload/A29A6BD5-6785-4E03-B4D1-D0CB64E5A42A/Les-Jardins-du-Montmarin_2.jpg | http://cdt29.media.tourinsoft.com/upload/F29DA28D-101F-4BED-8638-BABCE28AAB68/Les-Jardins-du-Montmarin_1.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000168')</id>
+		<title type="text">'PCUBRE0351000168'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000168')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000168</d:NUMID>
+				<d:TITRE>Parc de Bel-Air</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 71 06 04</d:TELEPHONE>
+				<d:WEB>www.tourisme-pays-redon.com</d:WEB>
+				<d:MAIL>tourisme-pays-redon@wanadoo.fr</d:MAIL>
+				<d:CODEPOSTAL>35600</d:CODEPOSTAL>
+				<d:INSEE>35236</d:INSEE>
+				<d:COMMUNE>Redon</d:COMMUNE>
+				<d:LATITUDE>47.693515</d:LATITUDE>
+				<d:LONGITUDE>-2.052304</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Jardin public de 2 hectares en centre ville, à deux minutes de la gare S.N.C.F., réalisé en 1963 dans une propriété bourgeoise. Le fleurissement pérenne y est privilégié pour une mise en valeur tout au long de l'année. Les principales collections cultivées sont : des plantes de terre de bruyère, des cornouillers, des arbustes à floraison hivernale et un bel exemplaire de magnolia soulangeana et un phillyrea latifolia. Une aire de jeux est à la disposition des enfants.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000169')</id>
+		<title type="text">'PCUBRE0351000169'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000169')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000169</d:NUMID>
+				<d:TITRE>Bois de Bahurel</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 71 06 04</d:TELEPHONE>
+				<d:MAIL>accueil@tourisme-pays-redon.fr</d:MAIL>
+				<d:ADRESSE1>rue de bahurel</d:ADRESSE1>
+				<d:CODEPOSTAL>35600</d:CODEPOSTAL>
+				<d:INSEE>35236</d:INSEE>
+				<d:COMMUNE>Redon</d:COMMUNE>
+				<d:LATITUDE>47.693515</d:LATITUDE>
+				<d:LONGITUDE>-2.052304</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Situé sur les coteaux qui dominent la Vallée de l'Oust et la Canal de Nantes à Brest, à l'ouest de la ville, ce bois, d'une surface de 25 hectares, a été racheté par la ville en 1992 à la famille Quercia (inventeur du briquet à gaz). Il est essentiellement planté de pins douglass et châtaigniers. Il regroupe : un parcours découverte de l'environnement et de la forêt, un parcours botanique, un parcours Escalad'arbres pour les groupes, un parcours sportif, un parcours VTT...</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000171')</id>
+		<title type="text">'PCUBRE0351000171'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000171')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000171</d:NUMID>
+				<d:TITRE>La Cacteraie de la Malouinière du Puits Sauvage</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 82 22 48</d:TELEPHONE>
+				<d:MOBILE>06 63 60 68 85</d:MOBILE>
+				<d:MAIL>jeangauttier@hotmail.com</d:MAIL>
+				<d:ADRESSE1>4 rue du Puits Sauvage</d:ADRESSE1>
+				<d:ADRESSE1S>Hameau de Saint-Etienne</d:ADRESSE1S>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.6161887</d:LATITUDE>
+				<d:LONGITUDE>-1.9794376</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Le Puits Sauvage a gardé l'âme du XVIIIe des malouinières construites par les corsaires et armateurs malouins. Clos de murs sur 1 hectare, ce Monument Historique propose une visite guidée de l'intérieur à 15h, 16, et 17h tous les jours en juillet/août, les we en juin/sept. En visite libre, le jardin propose différents bâtiments , fournil, pavillons, piscine à chevaux, terrasses et une grande verrière présentant plus de 800 espèces de cactées succulentes que ramenaient les navigateurs malouins. Expo-vente sur place. Groupes : toute l'année, sur réservation.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/35BF17FE-D0F1-4CA0-B5C9-66E460947EF3/cacteraie-puits-sauvage.jpg | http://cdt29.media.tourinsoft.com/upload/A1B37C04-E6ED-4DA5-8D65-52909A5D1EBB/La-Cacteraie-de-la-Malouiniere-du-Puits-Sauvage.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000172')</id>
+		<title type="text">'PCUBRE0351000172'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000172')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000172</d:NUMID>
+				<d:TITRE>Parc de la Malouinière de la Chipaudière</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 81 61 41</d:TELEPHONE>
+				<d:FAX>02 99 81 61 41</d:FAX>
+				<d:ADRESSE1>La Chipaudière</d:ADRESSE1>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.6403955</d:LATITUDE>
+				<d:LONGITUDE>-1.9646644</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Située au coeur du Clos Poulet, construite par une famille d'armateurs du XVIIIe siècle, cette superbe malouinière est toujours habitée par la même famille. Dans la salle à manger, marbre de Carrare et boiseries en chêne de Norvège. Son parc (classé Monument Historique) se déroule en trois terrasses successives en dénivellation, avec pièces d'eau et douves, côté sud, et en une vaste cour carrée agrémentée d'une chapelle du XVIIIème siècle et de communs du XVIIe, côté nord.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/6E0E9FBC-D1BB-4E2D-9A91-5C2FEC50413F/Malouiniere-de-la-Chipaudiere.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000173')</id>
+		<title type="text">'PCUBRE0351000173'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000173')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000173</d:NUMID>
+				<d:TITRE>Le Jardin des Douves</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 81 83 42 (Direction des Espaces verts - Mairie de Saint-Malo)</d:TELEPHONE>
+				<d:MAIL>deep@saint-malo.fr</d:MAIL>
+				<d:ADRESSE1>Porte Saint-Vincent</d:ADRESSE1>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.6505143</d:LATITUDE>
+				<d:LONGITUDE>-2.0229323</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>D'une surface de 3600m², c'estl plus ancien jardin de la ville de Saint-Malo. Il est né en 1880 sur les anciennes douves du château, et est orné d'une fontaine néo-baroque. Auparavant, il y avait, près de la Porte Saint-Vincent, un petit jardin appelé Jardin d'amour. C'est dit-on là, que se retrouvaient les amoureux, à l'ombre de quelques arbres... et des regards indiscrets.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000174')</id>
+		<title type="text">'PCUBRE0351000174'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000174')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000174</d:NUMID>
+				<d:TITRE>Le Parc des Chênes</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 81 83 42 (Direction des Espaces Verts - Mairie de Saint-Malo)</d:TELEPHONE>
+				<d:MAIL>deep@saint-malo.fr</d:MAIL>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.640151</d:LATITUDE>
+				<d:LONGITUDE>-1.984265</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Ce parc, d'une surface de 25000 m², entoure le conservatoire de musique. C'est le jardin secret des plantes et fleurs de bruyère. Rhododendrons, azalées et camélias sont ici chez eux. Un endroit dont on appréciera le calme et la majesté.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000175')</id>
+		<title type="text">'PCUBRE0351000175'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000175')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000175</d:NUMID>
+				<d:TITRE>La Roseraie Sainte-Anne</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 81 83 42</d:TELEPHONE>
+				<d:MAIL>rdubois@ville-saint-malo.fr</d:MAIL>
+				<d:ADRESSE1>Rue Jean XXIII - Saint-Servan</d:ADRESSE1>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.6335502</d:LATITUDE>
+				<d:LONGITUDE>-2.0159321</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>La Roseraie Sainte-Anne a été inaugurée le 23 juin 2001. Y sont recensés 150 variétés de rosiers et 2500 rosiers. Naissance de la rose Reflets de Saint-Malo, créée par Michel Adam, dont 105 pieds ont été plantés à la Roseraie Sainte-Anne. Aménagé dans l'ancien potager de la maison Sainte-Anne, à Saint-Servan, ce jardin de style médiéval, délimité d'un magnifique mur de pierres, compte 4000 m² de parterres, les roses sont sélectionnées selon l'aspect décoratif, le parfum, la rusticité et la résistance aux maladies.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000176')</id>
+		<title type="text">'PCUBRE0351000176'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000176')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000176</d:NUMID>
+				<d:TITRE>Le Jardin de Bel-Air</d:TITRE>
+				<d:THEME>Jardin d'agrément</d:THEME>
+				<d:TELEPHONE>02 99 81 83 42 (Direction des Espaces Verts - Mairie de Saint-Malo)</d:TELEPHONE>
+				<d:MAIL>deep@saint-malo.fr</d:MAIL>
+				<d:ADRESSE1>Saint Servan</d:ADRESSE1>
+				<d:CODEPOSTAL>35400</d:CODEPOSTAL>
+				<d:INSEE>35288</d:INSEE>
+				<d:COMMUNE>Saint-Malo</d:COMMUNE>
+				<d:LATITUDE>48.634265</d:LATITUDE>
+				<d:LONGITUDE>-1.999397</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>L'ouverture du Parc de Bel-Air (15000 m²) fut décidée juste après la seconde guerre mondiale, le 31 décembre 1944, par la commune de Saint-Servan. C'est aujourd'hui un vaste havre de verdure, situé au coeur de l'agglomération. On y trouve des espaces de jeux pour les enfants, une grotte et surtout un groupe de marbre de Carillon.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000177')</id>
+		<title type="text">'PCUBRE0351000177'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000177')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000177</d:NUMID>
+				<d:TITRE>Jardin de Granit</d:TITRE>
+				<d:TELEPHONE>02 99 73 85 45</d:TELEPHONE>
+				<d:FAX>02 99 73 70 43</d:FAX>
+				<d:WEB>www.lanhelin.fr/</d:WEB>
+				<d:MAIL>mairie@lanhelin.fr</d:MAIL>
+				<d:ADRESSE1>Mairie de Lanhélin</d:ADRESSE1>
+				<d:CODEPOSTAL>35720</d:CODEPOSTAL>
+				<d:INSEE>35147</d:INSEE>
+				<d:COMMUNE>Lanhélin</d:COMMUNE>
+				<d:LATITUDE>48.457677</d:LATITUDE>
+				<d:LONGITUDE>-1.828471</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>L'idée du jardin de Granit est née de deux symposiums de sculpture en 1993 et 1994. 15 sculpteurs exposent ici leurs oeuvres, venus d'Ille-et-Vilaine et des départements bretons, mais aussi de Paris, et de l'étranger. Vous pourrez y contempler notamment, une carte de la Bretagne schmématiquement dressée au sol, où émergent 7 piliers représentant à leur emplacement les 7 principaux gisements granitiques de Bretagne.  Ouvert tous les jours, toute l'année. Entrée libre.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/6816D118-344B-482C-8546-CBE2FF70A796/Jardin-de-Granit_1.jpg | http://cdt29.media.tourinsoft.com/upload/6CE0DCDC-5736-4E7F-9E88-B01B8831A4A6/Jardin-de-Granit.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE0351000179')</id>
+		<title type="text">'PCUBRE0351000179'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE0351000179')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE0351000179</d:NUMID>
+				<d:TITRE>Malouinière et Parc du Grand Val Ernoul</d:TITRE>
+				<d:TELEPHONE>02 99 89 29 38</d:TELEPHONE>
+				<d:MOBILE>06 62 19 72 03</d:MOBILE>
+				<d:FAX>02 99 89 29 38</d:FAX>
+				<d:MAIL>gvaillaud@gmail.com</d:MAIL>
+				<d:ADRESSE1>Le Grand Val Ernoul</d:ADRESSE1>
+				<d:CODEPOSTAL>35350</d:CODEPOSTAL>
+				<d:INSEE>35299</d:INSEE>
+				<d:COMMUNE>Saint-Méloir-des-Ondes</d:COMMUNE>
+				<d:LATITUDE>48.644081</d:LATITUDE>
+				<d:LONGITUDE>-1.910379</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Malouinière de 1719. Jardins à la française sur trois terrasses descendant jusqu'au miroir d'eau. Parc aux nombreuses essences d'arbres, roses, agapanthes, camélias et topiaires. Visites du 1er juillet au 10 août de 14h00 à 20h00. Ouvert pour le Neurodon : 1er et 2 mai, pour les journées des Jardins : 5 et 6 juin, pour les journées du Patrimoine en septembre. Entrée sur la D6 de Saint-Méloir à Saint-Benoît-des-Ondes. Gratuit pour les enfants.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS00007')</id>
+		<title type="text">'PCUBRE035FS00007'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS00007')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS00007</d:NUMID>
+				<d:TITRE>Parc du Château de la Motte Jean</d:TITRE>
+				<d:TELEPHONE>02 99 89 05 03</d:TELEPHONE>
+				<d:WEB>www.lamottejean.com</d:WEB>
+				<d:MAIL>lamottejean@gmail.com</d:MAIL>
+				<d:ADRESSE1>La Motte Jean</d:ADRESSE1>
+				<d:CODEPOSTAL>35350</d:CODEPOSTAL>
+				<d:INSEE>35263</d:INSEE>
+				<d:COMMUNE>Saint-Coulomb</d:COMMUNE>
+				<d:LATITUDE>48.644081</d:LATITUDE>
+				<d:LONGITUDE>-1.910379</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Motte féodale, puis forteresse appartenant aux Duguesclin, la Motte Jean est un château Louis XIII construit en 1625. Le parc offre 2km de promenade avec chapelle, pigeonnier et étangs en cascade. Le parc et les abords de la Motte Jean sont accessibles toute l'année librement, à l'exception de la cour qui reste privée. Les groupes qui souhaitent visiter la Motte Jean doivent faire une demande par écrit. La Motte Jean est ouverte à la visite pour les journées du patrimoine en septembre.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS0002E')</id>
+		<title type="text">'PCUBRE035FS0002E'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS0002E')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS0002E</d:NUMID>
+				<d:TITRE>Parc et Jardins de la Bourbansais</d:TITRE>
+				<d:TELEPHONE>02 99 69 40 07</d:TELEPHONE>
+				<d:FAX>02 99 69 49 65</d:FAX>
+				<d:WEB>www.labourbansais.com</d:WEB>
+				<d:MAIL>contact@labourbansais.com</d:MAIL>
+				<d:CODEPOSTAL>35720</d:CODEPOSTAL>
+				<d:INSEE>35226</d:INSEE>
+				<d:COMMUNE>Pleugueneuc</d:COMMUNE>
+				<d:LATITUDE>48.4037648</d:LATITUDE>
+				<d:LONGITUDE>-1.8967079</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:HANDIAUDITIF>Handicap auditif</d:HANDIAUDITIF>
+				<d:HANDIMENTAL>Handicap mental</d:HANDIMENTAL>
+				<d:HANDIMOTEUR>Handicap moteur</d:HANDIMOTEUR>
+				<d:DESCRIPTIF>Le Domaine de la Bourbansais est lauréat de la catégorie e-tourisme dans le cadre des Trophées du Tourisme 2012 organisé par le Comité Départemental du Tourisme Haute Bretagne Ille-et-Vilaine.
+
+Les Jardins et le Parc que l'on peut encore admirer aujourd'hui furent ordonnancés "à la française" au début du XVIIIè rappelant ainsi le classicisme des grands parcs inspirés par Le Nôtre. Les jardins sont classés Monuments Historiques depuis 1959 et Jardins Remarquables depuis 2006. D'avril à septembre: ouvert tous les jours de 10h à 19h. 
+Description du Domaine en langue des signes : http://youtu.be/qspg_aU5NBo</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/BCE17D75-4D69-4123-B3BE-3437FA5897ED/Parc-et-Jardins-de-la-Bourbansais_2.jpg | http://cdt29.media.tourinsoft.com/upload/9468C937-EE76-4828-B3F7-33C88AB63F43/Parc-et-Jardins-de-la-Bourbansais_1.jpg | http://cdt29.media.tourinsoft.com/upload/787ED513-B976-4634-91FB-7E25E1AB15C7/Parc-et-Jardins-de-la-Bourbansais_4.jpg | http://cdt29.media.tourinsoft.com/upload/0D76675E-FF93-4F33-937E-BA7AA0064EF2/Parc-et-Jardins-de-la-Bourbansais_5.jpg | http://cdt29.media.tourinsoft.com/upload/FBCBBD7B-48C0-446A-8088-11304C05DC29/Parc-et-Jardins-de-la-Bourbansais.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS0002H')</id>
+		<title type="text">'PCUBRE035FS0002H'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS0002H')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS0002H</d:NUMID>
+				<d:TITRE>Parc de l'An 2000</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 05 56 56</d:TELEPHONE>
+				<d:WEB>www.ville-bruz.fr</d:WEB>
+				<d:MAIL>office.de.tourisme.bruz@wanadoo.fr</d:MAIL>
+				<d:ADRESSE1>Route de Laillé</d:ADRESSE1>
+				<d:CODEPOSTAL>35170</d:CODEPOSTAL>
+				<d:INSEE>35047</d:INSEE>
+				<d:COMMUNE>Bruz</d:COMMUNE>
+				<d:LATITUDE>48.0166935</d:LATITUDE>
+				<d:LONGITUDE>-1.7501159</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Sur une superficie de 19 ha au cur de la ville, le Parc de l'An 2000 est une invitation à découvrir la nature. Au fil d'une balade champêtre, on y découvre des prairies, une zone humide naturelle, des haies bocagères, une saulaie, un verger, des ronciers épars,des ponts de bois, des sentiers étroits en bordure de la Seiche, mais aussi, des pupitres sur les espèces botaniques et végétales. Deux circuits découverte vous sont proposés: le premier sur le thème de la faune et la flore, le second sur les légendes et poèmes. Parking aux deux extrémités du parc (route de Laillé et rue de la Noé) et tables de pique nique à l'entrée route de Laillé. Dépliant sur le parc avec ses deux circuits disponible à l'office de tourisme de Bruz.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/8BBD177C-9D8D-4220-AB9E-17254264E5CA/Parc-de-l-An-2000.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS0004P')</id>
+		<title type="text">'PCUBRE035FS0004P'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS0004P')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS0004P</d:NUMID>
+				<d:TITRE>Arboretum J. Huchet</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 96 97 31</d:TELEPHONE>
+				<d:WEB>www.pepinieres-huchet.com/arboretum/</d:WEB>
+				<d:MAIL>service.internet@pepinieres-huchet.com</d:MAIL>
+				<d:ADRESSE1>Les Creulais</d:ADRESSE1>
+				<d:CODEPOSTAL>35370</d:CODEPOSTAL>
+				<d:INSEE>35119</d:INSEE>
+				<d:COMMUNE>Gennes-sur-Seiche</d:COMMUNE>
+				<d:LATITUDE>47.9788262</d:LATITUDE>
+				<d:LONGITUDE>-1.1359772</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>L'Arboretum Jean Huchet est un jardin relativement jeune : il a été créé en 1998, il est cependant d'ores et déjà épanoui de manière surprenante.
+Il trouve son origine dans l'envie de son créateur : Jean Huchet, pépiniériste de talent, de faire partager sa passion des plantes et du paysage. Il y crée un espace de spectacle permanent, où au travers d'une ballade plaisante on peut découvrir plus de 3 000 variétés d'arbustes, d'arbres et de plantes diverses. Des espaces nouveaux sont mis en place régulièrement.
+Le savoir-faire des pépiniéristes est exposé au long de ce jardin paysager. Entrée libre.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/BD0FF332-2313-4E41-B1A3-0B0179502F2F/Arboretum-J.-Huchet.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS00057')</id>
+		<title type="text">'PCUBRE035FS00057'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS00057')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS00057</d:NUMID>
+				<d:TITRE>Jardin Exotique de Cosy Home</d:TITRE>
+				<d:TELEPHONE>02 99 51 56 65</d:TELEPHONE>
+				<d:MOBILE>06 63 57 18 12</d:MOBILE>
+				<d:WEB>www.cosy-h.fr</d:WEB>
+				<d:MAIL>jardin.cosyhome@gmail.com</d:MAIL>
+				<d:ADRESSE1>Domaine du Haut Landrier</d:ADRESSE1>
+				<d:CODEPOSTAL>35520</d:CODEPOSTAL>
+				<d:INSEE>35173</d:INSEE>
+				<d:COMMUNE>Melesse</d:COMMUNE>
+				<d:LATITUDE>48.1991030</d:LATITUDE>
+				<d:LONGITUDE>-1.6829800</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Le jardin exotique de Cosy Home regroupe un grand nombre de plantes subtropicales et tropicales de l'hémisphère sud.
+Le climat doux de la Bretagne et son emplacement abrité des vents dominants en fait un lieu idéal pour ces végétaux.Vous observerez plus d'un millier de cactus en pleine terre avec leurs floraisons spéctaculaires. Vous découvrirez pendant votre promenade des protées d'Afrique du Sud, banksia, hédichium, alpinia, bananiers, bambous, ainsi que le parfum enivrant des fleurs magnifiques des daturas. Du printemps à l'automne, le jardin exotique de Cosy Home offrent une succession de floraisons remarquables. Bulbes, annuelles, bisannuelles, vivaces de printemps et dété, sont autant de variétés végétales qui rythment la vie du jardin. Notre salon de thé est ouvert avec le jardin, découvrez une grande variété de thés, infusions et laissez-vous tenter par nos gourmandises : gâteaux maisons à déguster dans le jardin qui feront la joie des petits et grands.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/B6A3B4ED-03DB-473D-B3DD-B14938017C01/Jardin-Exotique-de-Cosy-Home_2.jpg | http://cdt29.media.tourinsoft.com/upload/5BBE574C-0B84-4AA5-94C5-A22BA01E9FD1/Jardin-Exotique-de-Cosy-Home_1.jpg | http://cdt29.media.tourinsoft.com/upload/E7D88437-FA74-417E-9C30-F8FFE05B9AE3/Jardin-Exotique-de-Cosy-Home_3.jpg | http://cdt29.media.tourinsoft.com/upload/99623644-105D-4A35-81E2-8085C90565C2/Jardin-Exotique-de-Cosy-Home.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS00058')</id>
+		<title type="text">'PCUBRE035FS00058'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS00058')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS00058</d:NUMID>
+				<d:TITRE>Le Jardin du Levant</d:TITRE>
+				<d:TELEPHONE>02 99 96 69 51</d:TELEPHONE>
+				<d:WEB>www.lejardindulevant.fr</d:WEB>
+				<d:MAIL>contact@lejardindulevant.fr</d:MAIL>
+				<d:ADRESSE1>Les Haies</d:ADRESSE1>
+				<d:CODEPOSTAL>35370</d:CODEPOSTAL>
+				<d:INSEE>35272</d:INSEE>
+				<d:COMMUNE>Saint-Germain-du-Pinel</d:COMMUNE>
+				<d:LATITUDE>48.0005763</d:LATITUDE>
+				<d:LONGITUDE>-1.1546776</d:LONGITUDE>
+				<d:PMR>Non</d:PMR>
+				<d:DESCRIPTIF>Dans ce parc japonais du pays vitréen, vous découvrirez des espèces japonaises uniques en Bretagne. Une superbe collection de bonsaï est présentée dans un cadre japonisant dédié à la culture zen, où il est même possible de méditer ! Des plants y sont produits par semis, bouturage et greffage. Les acheteurs de plantes y trouveront leur bonheur. Ils peuvent aussi sy procurer tout le nécessaire pour créer un jardin japonais (lanternes en granit, clochettes à vents, érables japonais).
+- Visites : toute lannée, sauf jours fériés, les vendredis et samedis de 9 h à 12 h 30 et 14 h à 18 h. En semaine sur RDV.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/308B9FB6-72F0-4562-A7F6-2939C3FCDEB0/PCUBRE035FS00058-1.jpg | http://cdt29.media.tourinsoft.com/upload/A83E415C-BADE-4046-BB98-E0CEC95C13DF/PCUBRE035FS00058.jpg | http://cdt29.media.tourinsoft.com/upload/AC88F3A0-54E0-4848-8FAD-AF796436E9B4/PCUBRE035FS00058-3.jpg | http://cdt29.media.tourinsoft.com/upload/D2E91556-2EA2-4E0C-B8C3-E7E671EDFCAF/PCUBRE035FS00058-2.jpg | http://cdt29.media.tourinsoft.com/upload/D67FBE8B-1F56-471A-BE22-5A1844444E9A/PCUBRE035FS00058-4.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS00059')</id>
+		<title type="text">'PCUBRE035FS00059'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS00059')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS00059</d:NUMID>
+				<d:TITRE>Parc de la Tour Duguesclin</d:TITRE>
+				<d:TELEPHONE>02 99 08 44 80</d:TELEPHONE>
+				<d:WEB>www.pays-grand-fougeray.com</d:WEB>
+				<d:MAIL>tourisme-pays-grand-fougeray@wanadoo.fr</d:MAIL>
+				<d:CODEPOSTAL>35390</d:CODEPOSTAL>
+				<d:INSEE>35124</d:INSEE>
+				<d:COMMUNE>Grand-Fougeray</d:COMMUNE>
+				<d:LATITUDE>47.7224780</d:LATITUDE>
+				<d:LONGITUDE>-1.7317910</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/EB91A8D0-726F-469B-879D-873399518199/Parc-de-la-Tour-Duguesclin_1.jpg | http://cdt29.media.tourinsoft.com/upload/0DFACC0D-8D2F-4E9F-AE1E-0CCA88753BDB/Parc-de-la-Tour-Duguesclin.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS0005U')</id>
+		<title type="text">'PCUBRE035FS0005U'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS0005U')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS0005U</d:NUMID>
+				<d:TITRE>Promenade au clair de lune</d:TITRE>
+				<d:TELEPHONE>O2 99 46 94 12 (Office de Tourisme)</d:TELEPHONE>
+				<d:WEB>www.ot-dinard.com</d:WEB>
+				<d:MAIL>info@ot-dinard.com</d:MAIL>
+				<d:CODEPOSTAL>35800</d:CODEPOSTAL>
+				<d:INSEE>35093</d:INSEE>
+				<d:COMMUNE>Dinard</d:COMMUNE>
+				<d:LATITUDE>48.6356737</d:LATITUDE>
+				<d:LONGITUDE>-2.0521473</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:DESCRIPTIF>Située entre la plage du Prieuré et la Pointe du Moulinet. Bien exposée et protégée, la Promenade au clair de lune invite à la flânerie et à la détente le long des jardins dont les notes vives, colorées, et les parfums lui donnent un charme particulier. De juillet à septembre, à partir du Quai de la Perle, chaque soir, le jardin est illuminé d'une ambiance musicale variée.</d:DESCRIPTIF>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS000CQ')</id>
+		<title type="text">'PCUBRE035FS000CQ'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS000CQ')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS000CQ</d:NUMID>
+				<d:TITRE>Visite guidée du parc Botanique de Haute-Bretagne</d:TITRE>
+				<d:TELEPHONE>02 99 95 48 32</d:TELEPHONE>
+				<d:FAX>02 99 95 47 74</d:FAX>
+				<d:WEB>http://www.parcs-et-jardins.net</d:WEB>
+				<d:MAIL>botanique@me.com</d:MAIL>
+				<d:ADRESSE1>Château La Foltière</d:ADRESSE1>
+				<d:CODEPOSTAL>35133</d:CODEPOSTAL>
+				<d:INSEE>35071</d:INSEE>
+				<d:COMMUNE>Le Châtelier</d:COMMUNE>
+				<d:LATITUDE>48.4297966</d:LATITUDE>
+				<d:LONGITUDE>-1.2607233</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:HANDIAUDITIF>Handicap auditif</d:HANDIAUDITIF>
+				<d:HANDIMENTAL>Handicap mental</d:HANDIMENTAL>
+				<d:HANDIMOTEUR>Handicap moteur</d:HANDIMOTEUR>
+				<d:DESCRIPTIF>Créé en 1847, le parc s'étend sur 25 hectares; il acclimate les essences des différents continents dans 24 jardins thématiques regroupés dans trois ensembles : les jardins de l'Arcadie, les jardins romantiques et les jardins du crépuscule..."Ce parc de rêve, ce dédale de plaisirs... est ouvert sur la beauté désarmante du paysage breton. La diversité des plantes, des fleurs, des points de vue, offre au visiteur une promenade de charme éternellement dépaysante"... 
+Les enfants découvriront un univers botanique fantastique à la recherche du tyrannosaure dans le jardin préhistorique, du minotaure dans le labyrinthe de Knossos, de l'antre des plantes carnivores...</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/67DEDCA0-0728-4D8E-B015-2EFF006872EF/Jardin-perse-au-Parc-Floral-de-Haute-Bretagne.jpg | http://cdt29.media.tourinsoft.com/upload/DB0B45E6-A439-442F-9A6A-CA65D766CE68/Jardin-secret-au-Parc-Floral-de-Haute-Bretagne.jpg | http://cdt29.media.tourinsoft.com/upload/B679D619-6917-4274-A976-F78266434AA2/Chateau-du-Parc-Floral-de-Haute-Bretagne.jpg | http://cdt29.media.tourinsoft.com/upload/EE693CC8-627E-40DC-B4C5-5AABC47C5DF8/Parc-Floral-de-Haute-Bretagne.jpg | http://cdt29.media.tourinsoft.com/upload/C6655B82-EB5B-43A6-AFDC-907D36C8B680/Parc-Floral-de-Haute-Bretagne_1.jpg | http://cdt29.media.tourinsoft.com/upload/22159A49-39B7-43EA-8BCF-0FC4CA3D9B70/Parc-Botanique-de-Haute-Bretagne.jpg | http://cdt29.media.tourinsoft.com/upload/D3D5D52F-91CF-4E83-975D-798E102F518A/Parc-Botanique-de-Haute-Bretagne_6.jpg | http://cdt29.media.tourinsoft.com/upload/E14B272C-CA29-4484-A15B-D5D366BEB5C0/Parc-Botanique-de-Haute-Bretagne_10.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS000CS')</id>
+		<title type="text">'PCUBRE035FS000CS'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS000CS')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS000CS</d:NUMID>
+				<d:TITRE>Jardin du Thabor</d:TITRE>
+				<d:CODEPOSTAL>35190</d:CODEPOSTAL>
+				<d:INSEE>35022</d:INSEE>
+				<d:COMMUNE>Bécherel</d:COMMUNE>
+				<d:LATITUDE>48.296455</d:LATITUDE>
+				<d:LONGITUDE>-1.945772</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:DESCRIPTIF>Le Jardin du Thabor tient son nom d'une colline de Palestine où eut lieu la transfiguration du Christ. 
+Le premier cimetière de Bécherel se situait à cet emplacement.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/14ADF7F7-E52C-4A1B-9C26-1B0672C261A1/BECHEREL-anim-61-bis.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035FS000DB')</id>
+		<title type="text">'PCUBRE035FS000DB'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035FS000DB')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035FS000DB</d:NUMID>
+				<d:TITRE>Jardins Rocambole</d:TITRE>
+				<d:TELEPHONE>02 99 57 68 32</d:TELEPHONE>
+				<d:WEB>www.jardinsrocambole.fr</d:WEB>
+				<d:MAIL>jardinsrocambole@orange.fr</d:MAIL>
+				<d:ADRESSE1>La Lande aux Pitois</d:ADRESSE1>
+				<d:CODEPOSTAL>35150</d:CODEPOSTAL>
+				<d:INSEE>35088</d:INSEE>
+				<d:COMMUNE>Corps-Nuds</d:COMMUNE>
+				<d:LATITUDE>47.9793519</d:LATITUDE>
+				<d:LONGITUDE>-1.6102305</d:LONGITUDE>
+				<d:PMR>Oui</d:PMR>
+				<d:DESCRIPTIF>Ce lieu éco-insolite situé à 15 km au sud de Rennes propose un lieu de balade autour du potager.
+Avec une surface d'environ 4500 m² parcourez ce potager productif et coloré, mêlé d'objets et structures insolites. Vous y trouverez un jardin d'aromatiques, une serre solaire en dôme, un petit verger, des circuits d'eau, le jardin des briques et le jardin des sons à découvrir et à pratiquer. La visite se poursuit par un espace d'exposition et l'espace jeux pour petits et grands. 
+Un espace pique-nique et jeux de sociétés géants prolongent la visite. Des artistes de la région sont invités à exposer quelques uvres dans le jardin.
+Ouvert du mercredi au samedi du 5 juin au 18 octobre 2015. Entrée gratuite pour les moins de 6 ans. Tarif enfant pour les 6-18 ans.	
+
+Les Jardins Rocambole c'est aussi :
+- Des animations au jardin pour les scolaires et accueils de loisirs,
+- Des parcelles pour jardiner avec les conseils de Luc,
+- Des cours de jardinage biologique doctobre à juin.
+- La vente de plants biologique sur commande avant le 26 avril ou en libre service à partir de cette date.
+
+Un espace pique-nique est mis à votre disposition. L'entrée est gratuite pour les enfants de moins de 6 ans. Visite guidée tous les dimanches matins à 10h : 7 /personne</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/88B99AE9-81A4-4B1E-85C3-F5239F00F8FF/Jardins-Rocambole_4.jpg | http://cdt29.media.tourinsoft.com/upload/9EBD0C1F-DC75-4543-81D4-3EAC47B4496F/Jardins-Rocambole.jpg | http://cdt29.media.tourinsoft.com/upload/9FBC2562-5BF8-4AB4-9CE2-B85D2E1EE20E/Jardins-Rocambole_2.jpg | http://cdt29.media.tourinsoft.com/upload/E379F189-9D65-4825-A553-A08F07AFF732/Jardins-Rocambole_1.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035V505RYP')</id>
+		<title type="text">'PCUBRE035V505RYP'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035V505RYP')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035V505RYP</d:NUMID>
+				<d:TITRE>Le jardin médiéval</d:TITRE>
+				<d:THEME>Jardin botanique | Jardin remarquable</d:THEME>
+				<d:TELEPHONE>02 99 09 06 50</d:TELEPHONE>
+				<d:WEB>www.paysdemontfort.com</d:WEB>
+				<d:MAIL>tourisme@paysdemontfort.com</d:MAIL>
+				<d:ADRESSE1>Rue de Montfort</d:ADRESSE1>
+				<d:CODEPOSTAL>35137</d:CODEPOSTAL>
+				<d:INSEE>35023</d:INSEE>
+				<d:COMMUNE>Bédée</d:COMMUNE>
+				<d:LATITUDE>48.1773557</d:LATITUDE>
+				<d:LONGITUDE>-1.9453053</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:DESCRIPTIF>Jardin de monastère, de château ou de paysan, le jardin du Moyen-âge est un espace clos et utilitaire où l'on cultive les plantes qui fournissent remèdes et nourriture nécessaires à la vie.
+
+Accessible par la rue de Montfort ou par l'allée du Tertre, le jardin de la Motte Joubin vous en propose une restitution : au détour des allées, vous pourrez découvrir les légumes, fruits et plantes qui constituaient lessentiel des jardins dabbayes, de prieurés et parfois des demeures seigneuriales.
+
+Entre ces espaces, une roseraie agrémente et sépare le tout. Des éléments du patrimoine local comme lancien portail du cimetière et lancienne porte en cintre du Prieuré ont toute leur place dans ce jardin.
+
+Des panneaux informatifs vous aideront à mieux découvrir cet écrin de verdure en plein cur du bourg. Il offre aussi des espaces ludiques pour les petits et les grands.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/EA1407D0-EF0B-4D67-810D-9B12CC8BD816/jardin-medievale-bedee--1-.jpg | http://cdt29.media.tourinsoft.com/upload/BAC2E003-1724-4010-8804-442AE0532617/jardin-medievale-bedee--3-.jpg | http://cdt29.media.tourinsoft.com/upload/92A988CF-5CAA-4E2E-8664-302E0E559CCE/jardin-medievale-bedee.jpg | http://cdt29.media.tourinsoft.com/upload/6D941001-9F31-46CF-A828-DF0E27A462D8/Le-jardin-medieval-a-Bedee.JPG | http://cdt29.media.tourinsoft.com/upload/90146BA8-5A0A-47C7-840A-A1A7B946CC8C/Le-jardin-medieval-a-Bedee-2.JPG | http://cdt29.media.tourinsoft.com/upload/078FAE27-FDCC-4117-B39F-953C9941B59C/Le-jardin-medieval-a-Bedee-3.JPG</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://www2.mgcloud.fr/dataserver/tourismebretagne/data/jardins35fr('PCUBRE035V50I0QZ')</id>
+		<title type="text">'PCUBRE035V50I0QZ'</title>
+		<updated>2015-05-25T06:18:05Z</updated>
+		<author>
+			<name>https://www2.mgcloud.fr/dataserver/tourismebretagne/catalog/agents/17692</name>
+		</author>
+		<link rel="edit" title="jardins35frType" href="jardins35fr('PCUBRE035V50I0QZ')"/>
+		<category term="fr.mgdis.odata.data.jardins35frType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NUMID>PCUBRE035V50I0QZ</d:NUMID>
+				<d:TITRE>Le Château des Pères</d:TITRE>
+				<d:THEME>Parc</d:THEME>
+				<d:TELEPHONE>02 99 44 65 12</d:TELEPHONE>
+				<d:WEB>www.chateaudesperes.fr</d:WEB>
+				<d:MAIL>contact@chateaudesperes.fr</d:MAIL>
+				<d:CODEPOSTAL>35150</d:CODEPOSTAL>
+				<d:INSEE>35220</d:INSEE>
+				<d:COMMUNE>Piré-sur-Seiche</d:COMMUNE>
+				<d:LATITUDE>47.9972690</d:LATITUDE>
+				<d:LONGITUDE>-1.4239594</d:LONGITUDE>
+				<d:PMR>Non renseigné</d:PMR>
+				<d:DESCRIPTIF>Un parc de 31 hectares, situé à Piré-sur-Seiche regroupant forêt, potager, étangs, jardins 
+
+Le Château sanime toute lannée autour de formations et de nombreux projets culturels (expositions, théâtre, cinéma, concerts) célébrant le travail de la matière.
+
+Toute lannée, des uvres monumentales sont exposées dans le parc et le jardin du Château des Pères sur un parcours éclairé de 2 km. De nombreux artistes (Christophe MILCENT, Francis BENINCA,  Sylvie ICHER, Philippe ANDRE, etc.) exposent leurs uvres réalisées avec différents matériaux : pierre, fer, bois, etc.</d:DESCRIPTIF>
+				<d:PHOTOS>http://cdt29.media.tourinsoft.com/upload/BC985BC9-FDC0-4E83-B4D3-3CF0C1A996C0/chateau-des-peres2.jpg | http://cdt29.media.tourinsoft.com/upload/27C7B6A9-BE32-48CC-BB72-7892CDFF552C/chateau-des-peres.jpg | http://cdt29.media.tourinsoft.com/upload/B2861A7C-62E7-488A-AC06-2F82131B6873/B2912BRE035V50CMY3-26.jpg | http://cdt29.media.tourinsoft.com/upload/7886C9B6-7296-43DB-8E01-3279F7ED2ED3/B2912BRE035V50CMY3-12.jpg | http://cdt29.media.tourinsoft.com/upload/779F2BBC-9637-4567-BEF3-419889718876/B2912BRE035V50CMY3-33.jpg | http://cdt29.media.tourinsoft.com/upload/A95F17B4-D1E2-4A75-99CB-4226D08B5FBB/B2912BRE035V50CMY3-30-2.jpg | http://cdt29.media.tourinsoft.com/upload/27855DE1-3761-497A-BFEF-4D968547CB96/B2912BRE035V50CMY3-22.jpg | http://cdt29.media.tourinsoft.com/upload/96B48C47-F8B5-47A6-B5F7-FB77C3B61402/B2912BRE035V50CMY3-24.jpg</d:PHOTOS>
+			</m:properties>
+		</content>
+	</entry>
+</feed>
