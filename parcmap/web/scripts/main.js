@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-'use strict';
+ 'use strict';
 
 
 // Initializes FriendlyChat.
@@ -24,15 +24,15 @@ function FriendlyChat() {
   this.parcKeys=[];
   this.markerCluster;
 
-  this.countOfParcs = document.getElementById('countOfParcs');
+  this.countOfParcs = $('countOfParcs');
   //labels
   this.updateCardLabel ="Update Parc";
   this.addNewParcLabel = "Add New Parc";
 
-  this.importXMLButton = document.getElementById('importXML');
-  this.importXMLButton.addEventListener('click',this.importXML.bind(this));
-  this.importJSONButton = document.getElementById('importJSON');
-  this.importJSONButton.addEventListener('click', this.importJSON.bind(this));
+  this.importXMLButton = $('#importXML');
+  this.importXMLButton.bind('click',this.importXML.bind(this));
+  this.importJSONButton = $('#importJSON');
+  this.importJSONButton.bind('click', this.importJSON.bind(this));
 
   // Shortcuts to DOM Elements.
   this.messageList = document.getElementById("messages");
@@ -69,6 +69,7 @@ function FriendlyChat() {
   this.parcDescriptionLabel = document.getElementById('parcDescriptionLabel');
   this.parcNameLabel = document.getElementById('parcNameLabel');
   this.parcOpen = document.getElementById('open');
+  this.parcOpenLabel = $('#openLabel');
   this.parcSwing = document.getElementById('swing');
   this.parcTrampoline = document.getElementById('trampoline');
   this.parcSlide = document.getElementById('slide');
@@ -77,27 +78,19 @@ function FriendlyChat() {
   this.sixandPlus = document.getElementById('6andPlus');
   this.reviewPanel = document.getElementById('review-panel');
   //this.reviewPanel.addEventListener('click', this.loadReviews.bind(this));
- 
- //properties of current
-  this.selectedParcKey = "";
-  this.selectedParcName = "";
-  this.selectedParcOpen = "";
-  this.selectedParcSwing = "";
-  this.selectedParcTrampoline = "";
-  this.selectedParcSlide = "";
-  this.selectedParcLessThan2years = "";
-  this.selectedParcBetween2and6 = "";
-  this.selectedParcSixandPlus = "";
-  this.selectedParcLonLat="";
-  
+
+  //properties of selected parc
+
+  this.selectedParc = {};
+
 
   this.parcDetails = document.getElementById('parcDetails');
   this.parcDetailsName = document.getElementById('parcDetailsName');
   this.parcDetailsFacilities = document.getElementById('parcDetailsFacilities');
   this.parcDetailsAge = document.getElementById('parcDetailsAge');
   this.parcDetailsAddedBy = document.getElementById('parcDetailsAddedBy');
-  this.updateParcButton = document.getElementById('updateParc');
-  this.updateParcButton.addEventListener('click', this.requestUpdateParc.bind(this));
+  this.updateParcButton = $('#updateParc');
+  this.updateParcButton.bind('click', this.requestUpdateParc.bind(this));
   this.parcDetailsClose = document.getElementById('parcDetailsClose');
   this.parcDetailsDescription = document.getElementById('parcDetailsDescription');
   this.parcDetailspictureIMG = document.getElementById('parcDetailspictureIMG');
@@ -109,7 +102,7 @@ function FriendlyChat() {
   this.slideImg = document.getElementById('slideImg');
 
   this.closeparcDetailsContainterIcon.addEventListener('click', this.closeSidePanel.bind(this));
- 
+
   //map  
   this.controlUIAddParc = document.getElementById('controlUIAddParc');
   this.controlTextAddParc = document.getElementById('controlTextAddParc');
@@ -133,9 +126,6 @@ function FriendlyChat() {
 
   this.initmap();
   this.initFirebase();
-
-
- 
 }
 
 // Sets up shortcuts to Firebase features and initiate firebase auth.
@@ -145,13 +135,13 @@ FriendlyChat.prototype.initFirebase = function() {
   this.database = firebase.database();
   this.storage = firebase.storage();
    // Generate a random Firebase location
-  this.firebaseRef = firebase.database().ref('geofire');
+   this.firebaseRef = firebase.database().ref('geofire');
   // Create a new GeoFire instance at the random Firebase location
   this.geoFire = new GeoFire(this.firebaseRef);
   this.geoQuery = this.geoFire.query({
-      center: [this.map.getCenter().lat(),this.map.getCenter().lng()],
-      radius: 10  
-      });
+    center: [this.map.getCenter().lat(),this.map.getCenter().lng()],
+    radius: 10  
+  });
 
   this.firebaseRefParcTypes = firebase.database().ref('reference/partTypes');
 
@@ -159,7 +149,7 @@ FriendlyChat.prototype.initFirebase = function() {
   this.auth.onAuthStateChanged(this.onAuthStateChanged.bind(this));
   var onReadyRegistration = this.geoQuery.on("ready", function() {
     console.log("GeoQuery has loaded and fired all other events for initial data");
-    });  
+  });  
 };
 
 
@@ -168,230 +158,230 @@ FriendlyChat.prototype.importXML = function() {
   var xmlhttp;
   if (window.XMLHttpRequest)       
   {// code for IE7+, Firefox, Chrome, Opera, Safari
-       xmlhttp=new XMLHttpRequest();
-    }
-    else
+   xmlhttp=new XMLHttpRequest();
+ }
+ else
     {// code for IE6, IE5
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
     }
     xmlhttp.onload = function() {
-        var xmlDoc = new DOMParser().parseFromString(xmlhttp.responseText,'text/xml');
+      var xmlDoc = new DOMParser().parseFromString(xmlhttp.responseText,'text/xml');
 
-        console.log(xmlDoc);
+      console.log(xmlDoc);
 
-        
-        var x=xmlDoc.getElementsByTagName("content");
-        for (var i=0;i<x.length;i++)
-        { 
+
+      var x=xmlDoc.getElementsByTagName("content");
+      for (var i=0;i<x.length;i++)
+      { 
             //add a new position
             // Check that the user is signed in.
-    if (this.checkSignedInWithMessage()) {
+            if (this.checkSignedInWithMessage()) {
 
-      var currentUser = this.auth.currentUser;
-      var parcName =  x[i].getElementsByTagName("TITRE")[0].childNodes[0].nodeValue;
-      var open = true;
-      var swing = true;
-      var slide = true;
-      var lessThan2years = true;
-      var between2and6 = true;
-      var sixandPlus = true;
-      var trampoline = true;
-      var pictureUrl="";
-      var description="";
+              var currentUser = this.auth.currentUser;
+              var parcName =  x[i].getElementsByTagName("TITRE")[0].childNodes[0].nodeValue;
+              var open = true;
+              var swing = true;
+              var slide = true;
+              var lessThan2years = true;
+              var between2and6 = true;
+              var sixandPlus = true;
+              var trampoline = true;
+              var pictureUrl="";
+              var description="";
 
-      if(x[i].getElementsByTagName("DESCRIPTIF")[0]){
-        description = x[i].getElementsByTagName("DESCRIPTIF")[0].childNodes[0].nodeValue;
-      }
-      if(x[i].getElementsByTagName("PHOTOS")[0]){
-        pictureUrl = x[i].getElementsByTagName("PHOTOS")[0].childNodes[0].nodeValue.split("|")[0];
-      }
+              if(x[i].getElementsByTagName("DESCRIPTIF")[0]){
+                description = x[i].getElementsByTagName("DESCRIPTIF")[0].childNodes[0].nodeValue;
+              }
+              if(x[i].getElementsByTagName("PHOTOS")[0]){
+                pictureUrl = x[i].getElementsByTagName("PHOTOS")[0].childNodes[0].nodeValue.split("|")[0];
+              }
 
-      
+
       // Add a new message entry to the Firebase Database.
       console.log("addParc>> " + +" "+parcName+ " "+currentUser.displayName + " "+open+ " "+swing+ " "+slide );
       var id=x[i].getElementsByTagName("NUMID")[0].childNodes[0].nodeValue
       var positionRef = this.database.ref('positions');
       var newPosition = positionRef.child(id);
       newPosition.set({
-              source:"openData-"+"jardins35fr",
-              name: parcName ,
-              addedBy: "tourismebretagne",
-              position: {
-                lat: x[i].getElementsByTagName("LATITUDE")[0].childNodes[0].nodeValue, 
-                lng: x[i].getElementsByTagName("LONGITUDE")[0].childNodes[0].nodeValue},
-              open : open,
-              description: description,
-              swing : swing,
-              slide : slide,
-              pictureUrl: pictureUrl,
-              trampoline: trampoline,
-              lessThan2years: lessThan2years,
-              between2and6: between2and6,
-              sixandPlus: sixandPlus
-            
+        source:"openData-"+"jardins35fr",
+        name: parcName ,
+        addedBy: "tourismebretagne",
+        position: {
+          lat: x[i].getElementsByTagName("LATITUDE")[0].childNodes[0].nodeValue, 
+          lng: x[i].getElementsByTagName("LONGITUDE")[0].childNodes[0].nodeValue},
+          open : open,
+          description: description,
+          swing : swing,
+          slide : slide,
+          pictureUrl: pictureUrl,
+          trampoline: trampoline,
+          lessThan2years: lessThan2years,
+          between2and6: between2and6,
+          sixandPlus: sixandPlus
+
         });
       
       var location=[
-          Number(x[i].getElementsByTagName("LATITUDE")[0].childNodes[0].nodeValue), 
-          Number(x[i].getElementsByTagName("LONGITUDE")[0].childNodes[0].nodeValue)];
+      Number(x[i].getElementsByTagName("LATITUDE")[0].childNodes[0].nodeValue), 
+      Number(x[i].getElementsByTagName("LONGITUDE")[0].childNodes[0].nodeValue)];
 
       this.geoFire.set(
         x[i].getElementsByTagName("NUMID")[0].childNodes[0].nodeValue, location).then(function() {
-        console.log(x[i].getElementsByTagName("NUMID")[0].childNodes[0].nodeValue + " initially set to [" + location + "]");
-      })
+          console.log(x[i].getElementsByTagName("NUMID")[0].childNodes[0].nodeValue + " initially set to [" + location + "]");
+        })
+      }
+
+
     }
-                   
-        
-                }
-               
-            }.bind(this);
+
+  }.bind(this);
 
 
-            xmlhttp.open("GET","../XML parser/jardins35fr.xml",false);
-            xmlhttp.send();
+  xmlhttp.open("GET","../XML parser/jardins35fr.xml",false);
+  xmlhttp.send();
 
- 
+
 
 }
 // Sets up shortcuts to Firebase features and initiate firebase auth.
 FriendlyChat.prototype.importJSON = function() {
  //nantes:
-  $.getJSON("../XML parser/nantes.json", function(json) {
+ $.getJSON("../XML parser/nantes.json", function(json) {
      // this will show the info it in firebug console
-    var data =json.data
-    var positionRef = this.database.ref('positions');
-      var open = true;
-      var swing = true;
-      var slide = true;
-      var lessThan2years = true;
-      var between2and6 = true;
-      var sixandPlus = true;
-      var trampoline = true;
-      var pictureUrl="";
-      var description="";
-    for(var i=0; i<data.length; i++){
+     var data =json.data
+     var positionRef = this.database.ref('positions');
+     var open = true;
+     var swing = true;
+     var slide = true;
+     var lessThan2years = true;
+     var between2and6 = true;
+     var sixandPlus = true;
+     var trampoline = true;
+     var pictureUrl="";
+     var description="";
+     for(var i=0; i<data.length; i++){
       var positionRef = this.database.ref('positions');
       var newPosition = positionRef.child('nantes'+i);
       newPosition.set({
-              source:"openData-"+"nantes",
-              name: data[i].geo.name ,
-              addedBy: "Nantes",
-              position: {
-                lat: data[i]._l[0], 
-                lng: data[i]._l[1]},
-              open : open,
-              description: description,
-              swing : swing,
-              slide : slide,
-              pictureUrl: pictureUrl,
-              trampoline: trampoline,
-              lessThan2years: lessThan2years,
-              between2and6: between2and6,
-              sixandPlus: sixandPlus
-            
+        source:"openData-"+"nantes",
+        name: data[i].geo.name ,
+        addedBy: "Nantes",
+        position: {
+          lat: data[i]._l[0], 
+          lng: data[i]._l[1]},
+          open : open,
+          description: description,
+          swing : swing,
+          slide : slide,
+          pictureUrl: pictureUrl,
+          trampoline: trampoline,
+          lessThan2years: lessThan2years,
+          between2and6: between2and6,
+          sixandPlus: sixandPlus
+
         });
       
       var location=[
-          Number(data[i]._l[0]), 
-          Number(data[i]._l[1])];
+      Number(data[i]._l[0]), 
+      Number(data[i]._l[1])];
 
       this.geoFire.set('nantes'+i, location).then(function() {
-          console.log('nantes'+i + " initially set to [" + location + "]");
-       }.bind(this))
+        console.log('nantes'+i + " initially set to [" + location + "]");
+      }.bind(this))
     }
   }.bind(this))
 
   //montpellier:
   $.getJSON("../XML parser/montpellier.json", function(json) {
      // this will show the info it in firebug console
-    var data =json.features
-      var open = true;
-      var swing = true;
-      var slide = true;
-      var lessThan2years = true;
-      var between2and6 = true;
-      var sixandPlus = true;
-      var trampoline = true;
-      var pictureUrl="";
-      var description="";
-    for(var i=0; i<data.length; i++){
+     var data =json.features
+     var open = true;
+     var swing = true;
+     var slide = true;
+     var lessThan2years = true;
+     var between2and6 = true;
+     var sixandPlus = true;
+     var trampoline = true;
+     var pictureUrl="";
+     var description="";
+     for(var i=0; i<data.length; i++){
       console.log(data[i]);
       var positionRef = this.database.ref('positions');
       var newPosition = positionRef.child('montepellier'+i);
       
       newPosition.set({
-              source:"openData-"+"montepellier",
-              name: data[i].properties.NOM_AIRE ,
-              addedBy: "montepellier",
-              position: {
-                lat: data[i].geometry.coordinates[0][1], 
-                lng: data[i].geometry.coordinates[0][0]},
-              open : open,
-              description: description,
-              swing : swing,
-              slide : slide,
-              pictureUrl: pictureUrl,
-              trampoline: trampoline,
-              lessThan2years: lessThan2years,
-              between2and6: between2and6,
-              sixandPlus: sixandPlus
-            
+        source:"openData-"+"montepellier",
+        name: data[i].properties.NOM_AIRE ,
+        addedBy: "montepellier",
+        position: {
+          lat: data[i].geometry.coordinates[0][1], 
+          lng: data[i].geometry.coordinates[0][0]},
+          open : open,
+          description: description,
+          swing : swing,
+          slide : slide,
+          pictureUrl: pictureUrl,
+          trampoline: trampoline,
+          lessThan2years: lessThan2years,
+          between2and6: between2and6,
+          sixandPlus: sixandPlus
+
         });
       
       var location=[
-          Number(data[i].geometry.coordinates[0][1]), 
-          Number(data[i].geometry.coordinates[0][0])];
+      Number(data[i].geometry.coordinates[0][1]), 
+      Number(data[i].geometry.coordinates[0][0])];
 
       this.geoFire.set('montepellier'+i, location).then(function() {
-          console.log('montepellier'+i + " initially set to [" + location + "]");
-       }.bind(this))
+        console.log('montepellier'+i + " initially set to [" + location + "]");
+      }.bind(this))
     }
   }.bind(this))
 
  //Toulouse:
-  $.getJSON("../XML parser/toulouse.json", function(json) {
+ $.getJSON("../XML parser/toulouse.json", function(json) {
      // this will show the info it in firebug console
-    var data =json
-      var open = true;
-      var swing = true;
-      var slide = true;
-      var lessThan2years = true;
-      var between2and6 = true;
-      var sixandPlus = true;
-      var trampoline = true;
-      var pictureUrl="";
-      var description="";
-    for(var i=0; i<data.length; i++){
+     var data =json
+     var open = true;
+     var swing = true;
+     var slide = true;
+     var lessThan2years = true;
+     var between2and6 = true;
+     var sixandPlus = true;
+     var trampoline = true;
+     var pictureUrl="";
+     var description="";
+     for(var i=0; i<data.length; i++){
       console.log(data[i]);
       var positionRef = this.database.ref('positions');
       var newPosition = positionRef.child(data[i].fields.id);
       
       newPosition.set({
-              source:"openData-"+"toulouse",
-              name: data[i].fields.nom,
-              addedBy: "toulouse",
-              position: {
-                lat: data[i].fields.geo_shape.coordinates[1], 
-                lng: data[i].fields.geo_shape.coordinates[0]},
-              open : open,
-              description: description,
-              swing : swing,
-              slide : slide,
-              pictureUrl: pictureUrl,
-              trampoline: trampoline,
-              lessThan2years: lessThan2years,
-              between2and6: between2and6,
-              sixandPlus: sixandPlus
-            
+        source:"openData-"+"toulouse",
+        name: data[i].fields.nom,
+        addedBy: "toulouse",
+        position: {
+          lat: data[i].fields.geo_shape.coordinates[1], 
+          lng: data[i].fields.geo_shape.coordinates[0]},
+          open : open,
+          description: description,
+          swing : swing,
+          slide : slide,
+          pictureUrl: pictureUrl,
+          trampoline: trampoline,
+          lessThan2years: lessThan2years,
+          between2and6: between2and6,
+          sixandPlus: sixandPlus
+
         });
       
       var location=[
-          Number(data[i].fields.geo_shape.coordinates[1]), 
-          Number(data[i].fields.geo_shape.coordinates[0])];
+      Number(data[i].fields.geo_shape.coordinates[1]), 
+      Number(data[i].fields.geo_shape.coordinates[0])];
 
       this.geoFire.set(data[i].fields.id, location).then(function() {
           //console.log(data[i].fields.id + " initially set to [" + location + "]");
-       }.bind(this))
+        }.bind(this))
 
     }
   }.bind(this))
@@ -433,22 +423,22 @@ FriendlyChat.prototype.loadMessages = function() {
 
 FriendlyChat.prototype.loadReviews = function(){
   this.cleanReview();
-  this.reviewsRef = this.database.ref('positions/'+this.selectedParcKey+'/reviews');
+  this.reviewsRef = this.database.ref('positions/'+this.selectedParc.key+'/reviews');
   // Make sure we remove all previous listeners.
   this.reviewsRef.off();  
-  if(this.selectedParcKey){
+  if(this.selectedParc.key){
     var query = this.reviewsRef.limitToLast(100);
-    console.log("loadReviews for : "+this.selectedParcKey);
+    console.log("loadReviews for : "+this.selectedParc.key);
     
     this.reviewsRef.on("value", function(snapshot) {
       snapshot.forEach(function(reviewSnapshot) {
         var review = reviewSnapshot.val();
-         console.log(review.name+","+review.text);
-           this.displayMessage("", review.name, review.text, review.photoUrl, review.imageUrl);
+        //console.log(review.name+","+review.text);
+        this.displayMessage("", review.name, review.text, review.photoUrl, review.imageUrl);
       }.bind(this));    
     }.bind(this));
   }
-    } 
+} 
 
 // init map
 FriendlyChat.prototype.initmap = function() {
@@ -481,20 +471,20 @@ FriendlyChat.prototype.initmap = function() {
 
   var geocoder = new google.maps.Geocoder();
     //map
-  searchBox.addListener('places_changed', function(){
-    
-    this.geocodeAddress(geocoder);
-   
-    this.displayParcsAround(true);
-  }.bind(this));
+    searchBox.addListener('places_changed', function(){
+
+      this.geocodeAddress(geocoder);
+
+      this.displayParcsAround(true);
+    }.bind(this));
 
     var centerControlDiv = document.createElement('div');
     var centerControl = new FriendlyChat.prototype.CenterControl(centerControlDiv, this.map,this);
     centerControlDiv.index = 1;
     this.map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
-   
+
    // Try HTML5 geolocation.
-  if (navigator.geolocation) {
+   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       var pos = {
         lat: position.coords.latitude,
@@ -525,21 +515,21 @@ FriendlyChat.prototype.initmap = function() {
   this.map.addListener('dragend', function() {
     this.geoQuery.updateCriteria({
      center: [this.map.getCenter().lat(),this.map.getCenter().lng()]
-    });
+   });
    // console.log(this.map.getCenter().lat()+ ","+this.map.getCenter().lng());
 
-    this.displayParcsAround(false);
-    
-  }.bind(this));
+   this.displayParcsAround(false);
+
+ }.bind(this));
   this.markerCluster = new MarkerClusterer(this.map, this.markers, {imagePath: 'images/m'});
-   
+
 };
 
 FriendlyChat.prototype.displayParcsAround = function(cleanParc){
   if(cleanParc){
     this.cleanParcsDisplayed();
   }
-      var onKeyEnteredRegistration = this.geoQuery.on("key_entered", function(key, location, distance) {
+  var onKeyEnteredRegistration = this.geoQuery.on("key_entered", function(key, location, distance) {
         //console.log(this.parcKeys);
         //console.log("key:" + key+" "+this.parcKeys.indexOf(key) );
         if(this.parcKeys.indexOf(key) === -1) {
@@ -552,13 +542,15 @@ FriendlyChat.prototype.displayParcsAround = function(cleanParc){
             if( distance<9){
               var li = document.createElement("li");
               li.addEventListener('click',function(){
-                this.selectedParcKey = key;
-                this.selectedParcSource= parc.source;
+                this.selectedParc.parc= parc;
+                this.selectedParc.key= key;
+                console.log(this.selectedParc);
+                this.selectedParc.key = key;
                 this.openSidePanel();
                 //get strings  for display
                 var detailStrings = this.returnDetailsString(parc);
                 this.setDetails(parc.name,parc.swing,parc.slide,parc.trampoline,parc.lessThan2years,
-      parc.between2and6,parc.sixandPlus,parc.addedBy,parc.description,parc.pictureUrl);
+                  parc.between2and6,parc.sixandPlus,parc.addedBy,parc.description,parc.pictureUrl);
                 
                 this.loadReviews();
                 this.displayParcDetails();
@@ -591,19 +583,19 @@ FriendlyChat.prototype.displayParcsAround = function(cleanParc){
             }
           }.bind(this));
           //console.log("markers : " + this.markers.length);
-      
+
         }
         //this.markerCluster.redraw();
-       
+
       }.bind(this));
 
 
-      var onKeyExitedRegistration = this.geoQuery.on("key_exited", function(key, location, distance) {
+  var onKeyExitedRegistration = this.geoQuery.on("key_exited", function(key, location, distance) {
       //console.log(key + " exited query to " + location + " (" + distance + " km from center)");
-        var li = document.getElementById("listItem"+key);
-        if(li){
-          this.listParcsAround.removeChild(li);
-        }
+      var li = document.getElementById("listItem"+key);
+      if(li){
+        this.listParcsAround.removeChild(li);
+      }
         //this.markers[key].setMap(null);
       }.bind(this));  
 }
@@ -621,9 +613,9 @@ FriendlyChat.prototype.updateParc = function() {
   // Check that the user entered a message and is signed in.
   if (this.checkSignedInWithMessage()) {
     var currentUser = this.auth.currentUser;
-    console.log("updating parc: "+ this.selectedParcKey+ " by: "+currentUser.displayName);
+    console.log("updating parc: "+ this.selectedParc.key+ " by: "+currentUser.displayName);
     var positionRef = this.database.ref('positions');
-    var parcToUpdate = positionRef.child(this.selectedParcKey);
+    var parcToUpdate = positionRef.child(this.selectedParc.key);
     var parcName = document.getElementById('parcName').value;
     var open = document.getElementById('open').checked;
     var swing = document.getElementById('swing').checked;
@@ -634,48 +626,48 @@ FriendlyChat.prototype.updateParc = function() {
     var sixandPlus = document.getElementById('6andPlus').checked;
     var trampoline = document.getElementById('trampoline').checked;
     var parcDescription = document.getElementById('parcDescription').value;
-    var selectedParcLonLat = new google.maps.LatLng(this.selectedParcLonLat);
+    var selectedParcLonLat = new google.maps.LatLng(this.selectedParc.parc.position);
     console.log("update to be done: "+parcName+ ", open: "+open+" "+selectedParcLonLat+" "+addedBy+" "+lessThan2years );
     parcToUpdate.update(
-      {
-        name: parcName ,
-        addedBy: currentUser.displayName,
-        position: {lat: selectedParcLonLat.lat(), lng: selectedParcLonLat.lng()} ,
-        description: parcDescription,
-        open : open,
-        swing : swing,
-        slide : slide,
-        trampoline: trampoline,
-        lessThan2years: lessThan2years,
-        between2and6: between2and6,
-        sixandPlus: sixandPlus
-     });
+    {
+      name: parcName ,
+      addedBy: currentUser.displayName,
+      position: {lat: selectedParcLonLat.lat(), lng: selectedParcLonLat.lng()} ,
+      description: parcDescription,
+      open : open,
+      swing : swing,
+      slide : slide,
+      trampoline: trampoline,
+      lessThan2years: lessThan2years,
+      between2and6: between2and6,
+      sixandPlus: sixandPlus
+    });
     var location=[selectedParcLonLat.lat(), selectedParcLonLat.lng()];
    // console.log ("pushing to geofire >>" +newPosition.path.o[1]  + ","+ selectedParcLonLat);
-    this.geoFire.set(parcToUpdate.path.o[1], location).then(function() {
+   this.geoFire.set(parcToUpdate.path.o[1], location).then(function() {
       //console.log(parcToUpdate.path.o[1] + " initially set to [" + selectedParcLonLat + "]");
     })
    
-    if(this.newMarker){
-      this.newMarker.setMap(null);
-    }
-    this.markerCluster.redraw();
-    this.closeParcForm();
-    this.closeParcDetails();
-    this.closeSidePanel();
-    this.cardTitle.innerHTML = this.addNewParcLabel;
-    this.updateParcOKButton.setAttribute("hidden",true);
-    this.addParcOKButton.removeAttribute("hidden");
-
+   if(this.newMarker){
+    this.newMarker.setMap(null);
   }
+  this.markerCluster.redraw();
+  this.closeParcForm();
+  this.closeParcDetails();
+  this.closeSidePanel();
+  this.cardTitle.innerHTML = this.addNewParcLabel;
+  this.updateParcOKButton.setAttribute("hidden",true);
+  this.addParcOKButton.removeAttribute("hidden");
+
+}
 }
 
 
 
- FriendlyChat.prototype.CenterControl= function(controlDiv, map,proto) {
-       
+FriendlyChat.prototype.CenterControl= function(controlDiv, map,proto) {
+
         // Set CSS for the control border.
-       
+
         proto.controlUIAddParc.style.backgroundColor = '#fff';
         proto.controlUIAddParc.style.border = '2px solid #fff';
         proto.controlUIAddParc.style.borderRadius = '3px';
@@ -698,71 +690,71 @@ FriendlyChat.prototype.updateParc = function() {
 
 
         proto.controlUIAddParc.addEventListener('click', function(){
-        
-        proto.cardTitle.innerHTML = proto.addNewParcLabel;
-        proto.updateParcOKButton.setAttribute("hidden",true);
-        proto.addParcOKButton.removeAttribute("hidden");
-        proto.closeParcDetails();
-        proto.displayParcForm();
-       
 
-        var marker = new google.maps.Marker({
+          proto.cardTitle.innerHTML = proto.addNewParcLabel;
+          proto.updateParcOKButton.setAttribute("hidden",true);
+          proto.addParcOKButton.removeAttribute("hidden");
+          proto.closeParcDetails();
+          proto.displayParcForm();
+
+
+          var marker = new google.maps.Marker({
             position: {lat: map.getCenter().lat(), lng: map.getCenter().lng()},
             map: map,
             draggable: true,
-            });
-        proto.newParcLonLat.value = marker.getPosition();
-        google.maps.event.addListener(
-          marker,
-          'drag',
-          function(event) {
-             proto.newParcLonLat.value = this.position;
           });
-         
+          proto.newParcLonLat.value = marker.getPosition();
+          google.maps.event.addListener(
+            marker,
+            'drag',
+            function(event) {
+             proto.newParcLonLat.value = this.position;
+           });
+
           proto.newMarker = marker;
-              });
+        });
       }
 
-FriendlyChat.prototype.displayParcDetails = function(){
-    if(this.selectedParcSource =="community"){
-      this.updateParcButton.removeAttribute('hidden');
-    }
-    else{
-      this.updateParcButton.setAttribute('hidden',true);
-    }
-    this.parcDetails.removeAttribute('hidden');
-    this.openSidePanel();
-}
-FriendlyChat.prototype.closeParcDetails = function(){
-    this.parcDetails.setAttribute('hidden',true);
-}
-FriendlyChat.prototype.displayParcForm = function(){
-    this.addNewParcCard.removeAttribute('hidden');
-    this.openSidePanel();
-}
-FriendlyChat.prototype.closeParcForm = function(){
-    this.addNewParcCard.setAttribute('hidden',true);
-}
-FriendlyChat.prototype.geocodeAddress = function(geocoder) {
-  var address = document.getElementById('location').value;
-  geocoder.geocode({'address': address}, function(results, status) {
-    if (status === google.maps.GeocoderStatus.OK) {
-      this.map.setCenter(results[0].geometry.location);
-      this.map.setZoom(14);
-      this.geoQuery.updateCriteria({
-        center: [this.map.getCenter().lat(),this.map.getCenter().lng()]
-      });
-    } else {
-      alert('Geocode was not successful for the following reason: ' + status);
-    }
-  }.bind(this));
-}
+      FriendlyChat.prototype.displayParcDetails = function(){
+        if(this.selectedParc.parc.source =="community"){
+          this.updateParcButton.removeAttr('hidden');
+        }
+        else{
+          this.updateParcButton.setAttribute('hidden',true);
+        }
+        this.parcDetails.removeAttribute('hidden');
+        this.openSidePanel();
+      }
+      FriendlyChat.prototype.closeParcDetails = function(){
+        this.parcDetails.setAttribute('hidden',true);
+      }
+      FriendlyChat.prototype.displayParcForm = function(){
+        this.addNewParcCard.removeAttribute('hidden');
+        this.openSidePanel();
+      }
+      FriendlyChat.prototype.closeParcForm = function(){
+        this.addNewParcCard.setAttribute('hidden',true);
+      }
+      FriendlyChat.prototype.geocodeAddress = function(geocoder) {
+        var address = document.getElementById('location').value;
+        geocoder.geocode({'address': address}, function(results, status) {
+          if (status === google.maps.GeocoderStatus.OK) {
+            this.map.setCenter(results[0].geometry.location);
+            this.map.setZoom(14);
+            this.geoQuery.updateCriteria({
+              center: [this.map.getCenter().lat(),this.map.getCenter().lng()]
+            });
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        }.bind(this));
+      }
 
-FriendlyChat.prototype.handleLocationError= function(browserHasGeolocation) {
-  if(browserHasGeolocation ==false){
-    console.log(  'Error: The Geolocation service failed. Error: Your browser doesn\'t support geolocation.');
-  }
-}
+      FriendlyChat.prototype.handleLocationError= function(browserHasGeolocation) {
+        if(browserHasGeolocation ==false){
+          console.log(  'Error: The Geolocation service failed. Error: Your browser doesn\'t support geolocation.');
+        }
+      }
 
 // Saves a new location on the Firebase DB.
 FriendlyChat.prototype.savePosition = function(position ) {
@@ -787,19 +779,19 @@ FriendlyChat.prototype.savePosition = function(position ) {
     var newPosition = this.positionRef.push();
     
     newPosition.set({
-          source:"community",
-          name: parcName ,
-          addedBy: currentUser.displayName,
-          position: {lat: position.lat(), lng: position.lng()},
-          description: parcDescription,
-          open : open,
-          swing : swing,
-          slide : slide,
-          trampoline: trampoline,
-          lessThan2years: lessThan2years,
-          between2and6: between2and6,
-          sixandPlus: sixandPlus
-        });
+      source:"community",
+      name: parcName ,
+      addedBy: currentUser.displayName,
+      position: {lat: position.lat(), lng: position.lng()},
+      description: parcDescription,
+      open : open,
+      swing : swing,
+      slide : slide,
+      trampoline: trampoline,
+      lessThan2years: lessThan2years,
+      between2and6: between2and6,
+      sixandPlus: sixandPlus
+    });
     
     var location=[position.lat(), position.lng()];
     this.geoFire.set(newPosition.path.o[1], location).then(function() {
@@ -812,50 +804,44 @@ FriendlyChat.prototype.requestUpdateParc = function(){
   this.cardTitle.innerHTML= this.updateCardLabel;
   this.updateParcOKButton.removeAttribute("hidden");
   this.addParcOKButton.setAttribute("hidden",true);
-  console.log("request update parc: "+ this.selectedParcKey);
+  console.log("request update parc: "+ this.selectedParc.key);
 
-  var positionRef = firebase.database().ref('positions/' + this.selectedParcKey);
+  var positionRef = firebase.database().ref('positions/' + this.selectedParc.key);
   positionRef.on("value", function(snapshot) {
     var parc = snapshot.val();
+    this.selectedParc.parc= parc;
 
-    //this.selectedParcKey = parc.key;
-    this.selectedParcName = parc.name;
-    this.selectedParcOpen = parc.open;
-    this.selectedParcSwing = parc.swing;
-    this.selectedParcTrampoline = parc.trampoline;
-    this.selectedParcSlide = parc.slide;
-    this.selectedParcLessThan2years = parc.lessThan2years;
-    this.selectedParcBetween2and6 = parc.between2and6;
-    this.selectedParcSixandPlus = parc.sixandPlus;
-    this.selectedParcLonLat =parc.position;
-    this.parcName.value = this.selectedParcName;
+    this.parcName.value = this.selectedParc.parc.name;
     this.parcNameLabel.innerHTML = "";
     this.parcDescription.value = parc.description;
     this.parcDescriptionLabel.innerHTML = "";
-    document.getElementById('parcName').value = this.selectedParcName;
-    document.getElementById('open').checked = this.selectedParcOpen;
-    this.parcSwing.checked = this.selectedParcSwing;
-    if(!this.selectedParcSwing)
+    this.parcOpen.checked = this.selectedParc.parc.open;
+    this.parcSwing.checked = this.selectedParc.parc.swing;
+    if(!this.selectedParc.parc.open)
+    {
+      this.parcOpenLabel.removeClass('is-checked');
+    }
+    if(!this.selectedParc.parc.swing)
     {
       jQuery(document.getElementById('swingLabel')).removeClass('is-checked');
     }
-    this.parcTrampoline.checked =this.selectedParcTrampoline;
-    if(!this.selectedParcTrampoline)
+    this.parcTrampoline.checked =this.selectedParc.parc.trampoline;
+    if(!this.selectedParc.parc.trampoline)
     {
       jQuery(document.getElementById('trampolineLabel')).removeClass('is-checked');
     }
-    this.parcSlide.checked = this.selectedParcSlide;
-    if(!this.selectedParcSlide)
+    this.parcSlide.checked = this.selectedParc.parc.slide;
+    if(!this.selectedParc.parc.slide)
     {
       jQuery(document.getElementById('slideLabel')).removeClass('is-checked');
     }
-    this.lessThan2years.checked = this.selectedParcLessThan2years;
-     if(!this.selectedParcLessThan2years)
+    this.lessThan2years.checked = this.selectedParc.parc.lessThan2years;
+    if(!this.selectedParc.parc.lessThan2years)
     {
       jQuery(document.getElementById('selectedParcLessThan2yearsLabel')).removeClass('is-checked');
     }
-    this.between2and6.checked = this.selectedParcBetween2and6;
-    this.sixandPlus.checked = this.selectedParcSixandPlus;
+    this.between2and6.checked = this.selectedParc.parc.between2and6;
+    this.sixandPlus.checked = this.selectedParc.parc.sixandPlus;
 
     this.closeDetails();
     this.displayParcForm();
@@ -927,7 +913,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
 
       // Upload the image to Firebase Storage.
       var uploadTask = this.storage.ref(currentUser.uid + '/' + Date.now() + '/' + file.name)
-          .put(file, {'contentType': file.type});
+      .put(file, {'contentType': file.type});
       // Listen for upload completion.
       uploadTask.on('state_changed', null, function(error) {
         console.error('There was an error uploading a file to Firebase Storage:', error);
@@ -972,9 +958,9 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
 
     // Hide sign-in button.
     this.signInButton.setAttribute('hidden', 'true');
-   
 
-    this.updateParcButton.removeAttribute('hidden');
+
+    this.updateParcButton.removeAttr('hidden');
     this.messageForm.removeAttribute('hidden');
 
     // We load currently existing chant messages.
@@ -1020,74 +1006,74 @@ FriendlyChat.resetMaterialTextfield = function(element) {
 
 // Template for messages.
 FriendlyChat.MESSAGE_TEMPLATE =
-    '<div class="message-container">' +
-      '<div class="spacing"><div class="pic"></div></div>' +
-      '<div class="message"></div>' +
-      '<div class="name"></div>' +
-    '</div>';
+'<div class="message-container">' +
+'<div class="spacing"><div class="pic"></div></div>' +
+'<div class="message"></div>' +
+'<div class="name"></div>' +
+'</div>';
 
 // A loading image URL.
- FriendlyChat.LOADING_IMAGE_URL = 'https://www.google.com/images/spin-32.gif';
+FriendlyChat.LOADING_IMAGE_URL = 'https://www.google.com/images/spin-32.gif';
 
-  FriendlyChat.prototype.returnDetailsString = function(parc){
-    var strings  = {
-      "closed" : "",
-      "swingString"  : "",
-      "slideString"  : "",
-      "trampolineString"  : "",
-      "lessThan2yearsString" : "0-2 years",
-      "between2and6String"  : "2-6 years",
-      "sixandPlusString"  : ">6 years",
-      "fillColor" : "#00CCBB"
-    };
+FriendlyChat.prototype.returnDetailsString = function(parc){
+  var strings  = {
+    "closed" : "",
+    "swingString"  : "",
+    "slideString"  : "",
+    "trampolineString"  : "",
+    "lessThan2yearsString" : "0-2 years",
+    "between2and6String"  : "2-6 years",
+    "sixandPlusString"  : ">6 years",
+    "fillColor" : "#00CCBB"
+  };
 
-    if(!parc.open){
-      strings.closed="CLOSED";
-      strings.fillColor="#CCCCCC";
-    }
-    if(parc.swing){
-      strings.swingString= "swing";
-    }
-    if(parc.slide){
-      strings.slideString= "slide";
-    }
-    if(parc.trampoline){
-      strings.trampolineString= "trampoline";
-    }
-    if(!parc.lessThan2years){
-      strings.swingString= "";
-    }
-    if(!parc.between2and6){
-      strings.between2and6String= "";
-    }
-    if(!parc.sixandPlus){
-      strings.sixandPlusString= "";
-    }
-
-    return strings;
+  if(!parc.open){
+    strings.closed="CLOSED";
+    strings.fillColor="#CCCCCC";
+  }
+  if(parc.swing){
+    strings.swingString= "swing";
+  }
+  if(parc.slide){
+    strings.slideString= "slide";
+  }
+  if(parc.trampoline){
+    strings.trampolineString= "trampoline";
+  }
+  if(!parc.lessThan2years){
+    strings.swingString= "";
+  }
+  if(!parc.between2and6){
+    strings.between2and6String= "";
+  }
+  if(!parc.sixandPlus){
+    strings.sixandPlusString= "";
   }
 
+  return strings;
+}
+
 FriendlyChat.prototype.cleanParcsDisplayed = function(){
-     for (var i=0; i<this.markers.length; i++){
-        var li = document.getElementById("listItem"+this.markers[i].key);
-        this.markers[i].setMap(null);
-      }
-      while (this.listParcsAround.firstChild) {
-        this.listParcsAround.removeChild(this.listParcsAround.firstChild);
-      }
-      this.parcKeys=[];
-      this.markers =[];
-      this.markerCluster.clearMarkers();
-      this.markerCluster.redraw();
+ for (var i=0; i<this.markers.length; i++){
+  var li = document.getElementById("listItem"+this.markers[i].key);
+  this.markers[i].setMap(null);
+}
+while (this.listParcsAround.firstChild) {
+  this.listParcsAround.removeChild(this.listParcsAround.firstChild);
+}
+this.parcKeys=[];
+this.markers =[];
+this.markerCluster.clearMarkers();
+this.markerCluster.redraw();
 }
 // Displays a park in the UI.
 FriendlyChat.prototype.displayParkInfo = function(key, parc) {
-  
+
   //console.log(">>playParkInfo");
   var newPosition = parc.position;
   var infowindow = new google.maps.InfoWindow();
   var latLng = new google.maps.LatLng(newPosition.lat, newPosition.lng);
- 
+
   var detailStrings = this.returnDetailsString(parc);
   // Place a marker at that location.
 
@@ -1117,48 +1103,49 @@ FriendlyChat.prototype.displayParkInfo = function(key, parc) {
   }
   var stringClosed="";
   if(!parc.open){
-      stringClosed= "CLOSED ! ";
+    stringClosed= "CLOSED ! ";
   }
-   marker.addListener('mouseover', function() {
-              infowindow.setContent('<div><strong>' 
-                + parc.name + '</strong><br>' +
-                '</div><div>'+
-                 stringClosed+ " "+
-                 detailStrings.swingString+ " "+
-                 detailStrings.slideString+ " "+
-                 detailStrings.trampolineString+
-                 '</div><div>'+
-                 detailStrings.lessThan2yearsString+ " | "+
-                 detailStrings.between2and6String+ " | "+
-                 detailStrings.sixandPlusString+
-                '</div>');
-              infowindow.open(map, this);
-  
-    });
-   marker.addListener('mouseout', function() {
-              infowindow.close();
-  
-    });
-   marker.addListener('click', function() {
-    this.selectedParcKey = key;
+  marker.addListener('mouseover', function() {
+    infowindow.setContent('<div><strong>' 
+      + parc.name + '</strong><br>' +
+      '</div><div>'+
+      stringClosed+ " "+
+      detailStrings.swingString+ " "+
+      detailStrings.slideString+ " "+
+      detailStrings.trampolineString+
+      '</div><div>'+
+      detailStrings.lessThan2yearsString+ " | "+
+      detailStrings.between2and6String+ " | "+
+      detailStrings.sixandPlusString+
+      '</div>');
+    infowindow.open(map, this);
+
+  });
+  marker.addListener('mouseout', function() {
+    infowindow.close();
+
+  });
+  marker.addListener('click', function() {
+    this.selectedParc.key = key;
+    this.selectedParc.parc = parc;
     this.setDetails(parc.name,parc.swing,parc.slide,parc.trampoline,parc.lessThan2years,
       parc.between2and6,parc.sixandPlus,parc.addedBy, parc.description,parc.pictureUrl);
-    this.selectedParcSource= parc.source;
     this.openSidePanel();
     this.displayParcDetails();
     this.loadReviews();
 
     
     if(open){
-       parcDetailsClose.setAttribute("hidden",true);
-    }
-    else{
-        parcDetailsClose.removeAttribute("hidden");
-    }
-    this.selectedParcKey = key;
-  }.bind(this));
-    
-   marker.addListener('rightclick', function() {
+     parcDetailsClose.setAttribute("hidden",true);
+   }
+   else{
+    parcDetailsClose.removeAttribute("hidden");
+  }
+  this.selectedParc.key = key;
+  this.selectedParc.parc = parc;
+}.bind(this));
+
+  marker.addListener('rightclick', function() {
     console.log("Removing parc: "+key)
     this.positionRef.child(key).remove()
     this.geoFire.remove(key)
@@ -1193,7 +1180,7 @@ FriendlyChat.prototype.setDetails = function(name,swing,slide,trampoline,lessTha
   else{
     this.trampolineImg.removeAttribute("hidden");
   }
- if(!swing){
+  if(!swing){
     this.swingImg.setAttribute("hidden",true);
   }
   else{
@@ -1218,22 +1205,22 @@ FriendlyChat.prototype.setDetails = function(name,swing,slide,trampoline,lessTha
 
 //display right panel parc details
 FriendlyChat.prototype.openSidePanel = function(){
-    this.parcDetailsContainer.removeAttribute('hidden');
-    jQuery(this.parcDetailsContainer).addClass('mdl-cell--4-col');
-    jQuery(this.parcDetailsContainer).removeClass('mdl-cell--0-col');
-    jQuery(this.mapContainer).addClass("mdl-cell--6-col" );
-    jQuery(this.mapContainer).removeClass("mdl-cell--10-col" );
-    jQuery('html, body').animate({
-        scrollTop: jQuery(this.parcDetailsContainer).offset().top
-    }, 2000);
+  this.parcDetailsContainer.removeAttribute('hidden');
+  jQuery(this.parcDetailsContainer).addClass('mdl-cell--4-col');
+  jQuery(this.parcDetailsContainer).removeClass('mdl-cell--0-col');
+  jQuery(this.mapContainer).addClass("mdl-cell--6-col" );
+  jQuery(this.mapContainer).removeClass("mdl-cell--10-col" );
+  jQuery('html, body').animate({
+    scrollTop: jQuery(this.parcDetailsContainer).offset().top
+  }, 2000);
 }
 //display right panel parc details
 FriendlyChat.prototype.closeSidePanel = function(){
-    this.parcDetailsContainer.setAttribute('hidden',true);
-    jQuery(this.mapContainer).addClass("mdl-cell--10-col" );
-    jQuery(this.mapContainer).removeClass("mdl-cell--6-col" );
-    jQuery(this.parcDetailsContainer).addClass('mdl-cell--0-col');
-    jQuery(this.parcDetailsContainer).removeClass('mdl-cell--4-col');
+  this.parcDetailsContainer.setAttribute('hidden',true);
+  jQuery(this.mapContainer).addClass("mdl-cell--10-col" );
+  jQuery(this.mapContainer).removeClass("mdl-cell--6-col" );
+  jQuery(this.parcDetailsContainer).addClass('mdl-cell--0-col');
+  jQuery(this.parcDetailsContainer).removeClass('mdl-cell--4-col');
 }
 
 FriendlyChat.prototype.cleanReview = function(){
@@ -1290,18 +1277,18 @@ FriendlyChat.prototype.toggleButton = function() {
 FriendlyChat.prototype.checkSetup = function() {
   if (!window.firebase || !(firebase.app instanceof Function) || !window.config) {
     window.alert('You have not configured and imported the Firebase SDK. ' +
-        'Make sure you go through the codelab setup instructions.');
+      'Make sure you go through the codelab setup instructions.');
   } else if (config.storageBucket === '') {
     window.alert('Your Firebase Storage bucket has not been enabled. Sorry about that. This is ' +
-        'actually a Firebase bug that occurs rarely. ' +
-        'Please go and re-generate the Firebase initialisation snippet (step 4 of the codelab) ' +
-        'and make sure the storageBucket attribute is not empty. ' +
-        'You may also need to visit the Storage tab alsond paste the name of your bucket which is ' +
-        'displayed there.');
+      'actually a Firebase bug that occurs rarely. ' +
+      'Please go and re-generate the Firebase initialisation snippet (step 4 of the codelab) ' +
+      'and make sure the storageBucket attribute is not empty. ' +
+      'You may also need to visit the Storage tab alsond paste the name of your bucket which is ' +
+      'displayed there.');
   }
 };
 
 $(document).ready(function(){
- 
+
   window.friendlyChat = new FriendlyChat();
 });

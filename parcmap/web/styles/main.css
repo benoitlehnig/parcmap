@@ -60,16 +60,25 @@ html, body {
 
 
 #map { 
-  height: calc(100%);
-  height: -moz-calc(100% ); /* Firefox */
-  height: -webkit-calc(100%); /* Chrome, Safari */}
+  height: calc(100% - 8px);
+  height: -moz-calc(100% - 8px ); /* Firefox */
+  height: -webkit-calc(100% - 8px); /* Chrome, Safari */
+}
+
 #contentGrid {  
   height: calc(100% - 50px); 
   height: -moz-calc(100% - 50px); /* Firefox */
   height: -webkit-calc(100% - 50px); /* Chrome, Safari */
   padding:0px;margin:0px;
+  position:relative;
 }
 #mapContainer, #parcDetailsContainer {  height: calc(100%); padding:0px;margin:0px;}
+#parcDetailsContainer.small{
+  height: 0px; padding:0px;margin:0px;
+}
+#parcDetailsContainer.big{
+  height: calc(100%); padding:0px;margin:0px;
+}
 #mapContainer.mdl-cell--12-col, #mapContainer.mdl-cell--12-col-tablet, #mapContainer.mdl-cell--12-col-tablet{
   width: calc(100%); 
 } 
@@ -78,6 +87,10 @@ html, body {
    width:100%;
 }
 #listParcsAround{
+  overflow-y: auto;
+  height: calc(100% - 126px); 
+}
+#listParcs{
   overflow-y: auto;
   height: calc(100% - 126px); 
 }
@@ -121,7 +134,7 @@ html, body {
 #messages {
   overflow-y: auto;
   margin-bottom: 10px;
-  height: calc(100% - 40px);
+  height: 320px;
   flex: 1 1 auto;
   flex-direction: column;
   display: flex;
@@ -317,7 +330,6 @@ html, body {
 
 }
 #parcDetailsDescription{
-    border-top: 1px solid #e0e0e0;
     margin-top: 1em;
     max-height: 150px;
     overflow-y: auto;
@@ -326,14 +338,67 @@ html, body {
   font-weight:lighter;
 }
 #closeDetails{
-  float:right;
-  margin-right:8px;
-  right: 0px;
-  position: absolute;
+  margin-left:8px;
   cursor: pointer;
 }
 
 /*maps icon */
 .map-icon {
   font-size: 10px;
+}
+
+.transformable {
+    -webkit-transition: height 100ms linear;
+    -moz-transition: height 100ms linear;
+    -o-transition: height 100ms linear;
+    -ms-transition: height 100ms linear;
+    transition: height 100ms linear;
+
+}
+
+#listParcsAround.small {
+    height:1px;
+    overflow-y: hidden;
+}
+
+#listParcsAround.big {
+  overflow-y: auto;
+  height: calc(100%); 
+}
+
+#listParcsAround.small {
+    height:1px;
+    overflow-y: hidden;
+}
+.mdl-chip__contact  i.material-icons{
+  position: relative;
+  top: 2px;
+  font-size: 27px;
+}
+
+#parcsCard{
+  position: absolute; 
+  top: 10px; 
+  left: 10px;
+  z-index: 99;
+  height: calc(100% - 25px); 
+}
+@media (max-width: 610px) {
+  #parcsCard{
+    position: static; 
+    height: calc(100% - 25px); 
+    width:100%;
+  }
+  #map {
+    height: calc(50%);
+    height: -moz-calc(50%);
+    height: -webkit-calc(50%);
+  }
+}
+.fullHeight{
+  height:100%;
+}
+
+.detailsTabContent{
+  height:calc(100% - 150px);
 }

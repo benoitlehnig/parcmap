@@ -1,0 +1,74 @@
+
+<div ng-hide="displayed == false">
+  <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text" ng-show="mode=='add'">Add a new parc</h2>
+     <h2 class="mdl-card__title-text" ng-show="mode=='update'">Update parc</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <p hidden>
+      position:
+      <input class="mdl-textfield__input" type="text" id="newParcLonLat" >
+    </p>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="parcNameMS">
+      <input class="mdl-textfield__input" type="text" id="parcName" value="{{$root.selectedParc.name }}">
+      <label class="mdl-textfield__label" for="parcName" id="parcNameLabel">Name</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="parcDescriptionMS">
+      <textarea class="mdl-textfield__input" type="text" rows="3" maxrows="6" id="parcDescription" value="{{$root.selectedParc.description }}"></textarea>
+      <label class="mdl-textfield__label" for="parcDescription" id="parcDescriptionLabel">Description</label>
+    </div>
+    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="open" id="openLabel">
+    <input type="checkbox" id="open" class="mdl-checkbox__input" checked ng-checked="$root.selectedParc.open">
+      <span class="mdl-checkbox__label">Open</span>
+    </label>
+    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="water" id="waterLabel">
+    <input type="checkbox" id="water" class="mdl-checkbox__input" checked ng-checked="$root.selectedParc.water">
+      <span class="mdl-checkbox__label">Water</span>
+    </label>
+    <div class="mdl-grid gridNoMargin">
+      <div class="mdl-cell mdl-cell--4-col">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="slide" id="slideLabel">
+          <input type="checkbox" id="slide" class="mdl-checkbox__input" checked>
+          <span class="mdl-checkbox__label">Slide</span>
+        </label>
+      </div>
+      <div class="mdl-cell mdl-cell--4-col"> 
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="swing" id="swingLabel">
+          <input type="checkbox" id="swing" class="mdl-checkbox__input" checked>
+          <span class="mdl-checkbox__label">Swing</span>
+        </label>
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="trampoline" id="trampolineLabel">
+          <input type="checkbox" id="trampoline" class="mdl-checkbox__input" checked>
+          <span class="mdl-checkbox__label">Trampoline</span>
+        </label>
+      </div>
+    </div>
+    <div class="mdl-grid gridNoMargin">
+      <div class="mdl-cell mdl-cell--4-col">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="lessThan2years" id="lessThan2yearsLabel">
+          <input type="checkbox" id="lessThan2years" class="mdl-checkbox__input" >
+          <span class="mdl-checkbox__label">0-2 years</span>
+        </label>
+      </div>
+      <div class="mdl-cell mdl-cell--4-col"> 
+       <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="between2and6" id="between2and6Label">
+        <input type="checkbox" id="between2and6" class="mdl-checkbox__input" >
+        <span class="mdl-checkbox__label">2-6 years</span>
+      </label>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col"> 
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="6andPlus" id="6andPlusLabel">
+        <input type="checkbox" id="6andPlus" class="mdl-checkbox__input" >
+        <span class="mdl-checkbox__label">+6 years</span>
+      </label>
+    </div>
+  </div>     
+</div>
+<div class="mdl-card__actions mdl-card--border">
+  <button type="button" class="mdl-button" id="addParcOKButton" ng-hide="mode !='add'" ng-click="addParc()">Add</button>
+  <button type="button" class="mdl-button" id="updateParcOKButton" ng-hide="mode !='update'" ng-click="updateParc()">Update</button>
+  <button type="button" class="mdl-button close" id="addParcCancelButton" ng-click="close()">Cancel</button>
+</div>
+</div>

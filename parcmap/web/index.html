@@ -53,11 +53,10 @@
   <!-- App Styling -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/map-icons-master/dist/css/map-icons.css">
-
 
   <!-- GeoFire -->
-  <script src="https://cdn.firebase.com/libs/geofire/4.1.0/geofire.min.js"></script></head>
+  <script src="https://cdn.firebase.com/libs/geofire/4.1.0/geofire.min.js"></script>
+</head>
 <body>
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -208,7 +207,7 @@
    id="parcDescription"></textarea>
             <label class="mdl-textfield__label" for="parcDescription" id="parcDescriptionLabel">Description</label>
           </div>
-          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="open">
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="open" id="openLabel">
             <input type="checkbox" id="open" class="mdl-checkbox__input" checked>
             <span class="mdl-checkbox__label">Open</span>
           </label>
@@ -290,7 +289,6 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48
         &libraries=places">
     </script>
-  <script src="styles/map-icons-master/dist/js/map-icons.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>

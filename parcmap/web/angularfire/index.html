@@ -1,0 +1,112 @@
+<!doctype html>
+<!--
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en" ng-app="sampleApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Learn how to use the Firebase platform on the Web">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ParcMap</title>
+
+	<!-- Disable tap highlight on IE -->
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<!-- Web Application Manifest -->
+	<link rel="manifest" href="manifest.json">
+
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Friendly Chat">
+	<meta name="theme-color" content="#303F9F">
+
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="Friendly Chat">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+
+	<!-- Tile icon for Win8 -->
+	<meta name="msapplication-TileColor" content="#3372DF">
+	<meta name="msapplication-navbutton-color" content="#303F9F">
+
+	<!-- Material Design Lite -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-amber.min.css" /> 
+	<script src="../scripts/jquery-3.1.0.min.js"></script>
+	
+	<script src="https://unpkg.com/rsvp@3.1.0/dist/rsvp.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48&libraries=places"></script>
+
+
+	<!-- App Styling -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<link rel="stylesheet" href="../styles/main.css">
+
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+	<!-- GeoFire -->
+	<script src="https://cdn.firebase.com/libs/geofire/4.1.0/geofire.min.js"></script>
+	<script type="text/javascript">
+
+		var app = angular.module('sampleApp', []);
+	</script>
+	<script src="../scripts/markerclusterer.js"></script>
+	<!--main app module-->
+	<script src="app/app.module.js"></script>
+	<script src="app/headerParcmap/headerParcmap.module.js"></script>
+	<script src="app/headerParcmap/headerParcmap.component.js"></script>
+	<script src="app/map/map.module.js"></script>
+	<script src="app/map/map.component.js"></script>
+	<script src="app/parcList/parcList.module.js"></script>
+	<script src="app/parcList/parcList.component.js"></script>
+	<script src="app/parcDetails/parcDetails.module.js"></script>
+	<script src="app/parcDetails/parcDetails.component.js"></script>
+	<script src="app/parcUpdate/parcUpdate.module.js"></script>
+	<script src="app/parcUpdate/parcUpdate.component.js"></script>
+</head>
+
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		
+		<headerparcmap class="mdl-layout__header"></headerparcmap>
+		<main id="contentGrid">
+			<map></map>
+			<div class="mdl-card mdl-shadow--16dp" id="parcsCard" >
+					<parcdetails id="parcDetails"></parcdetails>
+					<parcupdate class="fullHeight"></parcupdate>
+	  				<parclist class="fullHeight" ng-hide="displayed"></parclist>
+			</div>
+			
+			
+			
+		</main>
+	</div>
+</body>
+
+<script>
+  	// Initialize the Firebase SDK
+  	var config = {
+  		apiKey: "AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48",
+  		authDomain: "parcmap.firebaseapp.com",
+  		databaseURL: "https://parcmap.firebaseio.com",
+  		storageBucket: "parcmap.appspot.com",
+  	};
+  	firebase.initializeApp(config);
+  </script>
+  <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  </html>

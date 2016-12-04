@@ -1,0 +1,15 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      D:\Program Files\nodejs\node.exe C:\Users\blehnig\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8080
+[debug] CLI Version:  3.0.8
+[debug] Platform:     win32
+[debug] Node Version: v6.2.0
+[debug] Time:         Sun Dec 04 2016 21:52:25 GMT+0100 (Romance Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[warn] !  "firebase" key in firebase.json is deprecated. Run firebase use --add instead
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: D:\Documents\Perso\parcmap\parcmap\web
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:8080
