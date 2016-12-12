@@ -3,10 +3,9 @@
 [debug] CLI Version:  3.0.8
 [debug] Platform:     win32
 [debug] Node Version: v6.2.0
-[debug] Time:         Sun Dec 04 2016 21:52:25 GMT+0100 (Romance Standard Time)
+[debug] Time:         Fri Dec 09 2016 13:52:30 GMT+0100 (Romance Standard Time)
 [debug] ----------------------------------------------------------------------
 [debug] 
-[warn] !  "firebase" key in firebase.json is deprecated. Run firebase use --add instead
 [info] Starting Firebase development server...
 [info] 
 [info] Project Directory: D:\Documents\Perso\parcmap\parcmap\web

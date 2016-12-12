@@ -1,294 +1,101 @@
 <!doctype html>
 <!--
-  Copyright 2015 Google Inc. All rights reserved.
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-      https://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
+Application to retrieve parcs for children around you ! 
+Developed by Benoit Lehnig
 -->
-<html lang="en">
+<html lang="en" ng-app="sampleApp">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Learn how to use the Firebase platform on the Web">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ParcMap</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Parcs, playgrounds">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ParcMap</title>
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
+	<!-- Disable tap highlight on IE -->
+	<meta name="msapplication-tap-highlight" content="no">
 
-  <!-- Web Application Manifest -->
-  <link rel="manifest" href="manifest.json">
+	<!-- Web Application Manifest -->
+	<link rel="manifest" href="manifest.json">
 
-  <!-- Add to homescreen for Chrome on Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="Friendly Chat">
-  <meta name="theme-color" content="#303F9F">
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="ParcMap">
+	<meta name="theme-color" content="#303F9F">
 
-  <!-- Add to homescreen for Safari on iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Friendly Chat">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="Parc Map">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
 
-  <!-- Tile icon for Win8 -->
-  <meta name="msapplication-TileColor" content="#3372DF">
-  <meta name="msapplication-navbutton-color" content="#303F9F">
+	<!-- Tile icon for Win8 -->
+	<meta name="msapplication-TileColor" content="#3372DF">
+	<meta name="msapplication-navbutton-color" content="#303F9F">
 
-  <!-- Material Design Lite -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-amber.min.css" /> 
-  <script src="scripts/jquery-3.1.0.min.js"></script>
-  <script src="scripts/markerclusterer.js"></script>
-  <script src="https://unpkg.com/rsvp@3.1.0/dist/rsvp.min.js"></script>
-  
-  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+	<!-- Material Design Lite -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-amber.min.css" /> 
+	<script src="../scripts/jquery-3.1.0.min.js"></script>
+	
+	<script src="https://unpkg.com/rsvp@3.1.0/dist/rsvp.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48&libraries=places"></script>
 
 
-  <!-- App Styling -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-  <link rel="stylesheet" href="styles/main.css">
+	<!-- App Styling -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<link rel="stylesheet" href="../styles/main.css">
 
-  <!-- GeoFire -->
-  <script src="https://cdn.firebase.com/libs/geofire/4.1.0/geofire.min.js"></script>
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+	<!-- GeoFire -->
+	<script src="https://cdn.firebase.com/libs/geofire/4.1.0/geofire.min.js"></script>
+	<script type="text/javascript">
+
+		var app = angular.module('sampleApp', ['ui.router']);
+	</script>
+	<script src="scripts/markerclusterer.js"></script>
+	<!--main app module-->
+	<script src="app/app.module.js"></script>
+	<script src="app/headerParcmap/headerParcmap.module.js"></script>
+	<script src="app/headerParcmap/headerParcmap.component.js"></script>
+	<script src="app/map/map.module.js"></script>
+	<script src="app/map/map.component.js"></script>
+	<script src="app/parcList/parcList.module.js"></script>
+	<script src="app/parcList/parcList.component.js"></script>
+	<script src="app/parcDetails/parcDetails.module.js"></script>
+	<script src="app/parcDetails/parcDetails.component.js"></script>
+	<script src="app/parcUpdate/parcUpdate.module.js"></script>
+	<script src="app/parcUpdate/parcUpdate.component.js"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="scripts/meanie-angular-convert.min.js"></script>
 </head>
+
 <body>
-
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  
-   <!-- Header section containing logo -->
- 
-  <header class="mdl-layout__header " >
-  <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <div class="mdl-layout-title">
-        <h3><i class="material-icons">chat_bubble_outline</i> ParcMap</h3>
-      </div>
-      <div>
-       <input class="controls" type="text" id="location" placeholder="Enter a location"> 
-      </div>
-      <!-- Navigation. We hide it in small screens. -->
-      <div class="mdl-layout-spacer"></div>
-      <div id="user-container" >
-        <div hidden id="user-pic"></div>
-        <div hidden id="user-name"></div>
-        <button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-          <i class="material-icons">account_circle</i>Sign-in with Google
-        </button>
-          <!-- Right aligned menu below button -->
-        <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
-          <i class="material-icons">more_vert</i>
-        </button>
-        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-            for="demo-menu-lower-right">
-          <li class="mdl-menu__item" id="sign-out" hidden>  
-            Sign-Out     
-          </li>
-        </ul>
-      </div>
-    </div>
-</header>
-<div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">Title</span>
-  <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" id="importXML" href="#r" hidden>Import XML</a>
-    <a class="mdl-navigation__link" id="importJSON" href="#r" hidden>Import JSON</a>
-    <a class="mdl-navigation__link" href="">Link</a>
-    <a class="mdl-navigation__link" href="">Link</a>
-  </nav>
-</div>
-
-<main class="mdl-layout__content mdl-grid " id="contentGrid">
- <div class="mdl-cell mdl-cell--2-col " id="listContainer">
-  <h4>Parcs Around <span id="countOfParcs"></span></h4>
-  <ul class="demo-list-item mdl-list" id="listParcsAround">
-  </ul>
- </div>
-  <!-- map container -->
-  <div class="mdl-cell mdl-cell--10-col" id="mapContainer">
-    <div id="map"></div>
-  </div>
-   <!-- map container -->
-  <div class="" hidden id="parcDetailsContainer">
-     <div id="parcDetails" class="demo-card-square mdl-card mdl-shadow--2dp" hidden>
-        <div class="mdl-card__title mdl-card--expand">
-          <div>
-             <h4  id="parcDetailsName">Update</h4>
-            <div class="mdl-list__item-sub-title" id="parcDetailsAddedBy"></div>
-            </div>
-          <i class="material-icons" id="closeDetails">clear</i>
-        </div>
-        <div class="mdl-card__supporting-text">
-          <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
-            <div class="mdl-tabs__tab-bar">
-                <a href="#details-panel" class="mdl-tabs__tab is-active">Details</a>
-                <a href="#review-panel" class="mdl-tabs__tab">Reviews</a>
-            </div>
-            <div class="mdl-tabs__panel is-active" id="details-panel">
-              
-              <div id="parcDetailsClose" hidden>
-                <h3  id="parcDetailsName">Closed</h3>
-              </div>
-              
-              <div  id="parcDetailsFacilities">
-                <img src="images/slide.png" id="slideImg"/>
-                <div class="mdl-tooltip" data-mdl-for="slideImg">Slide</div>
-                <img src="images/swing.png" id="swingImg"/>
-                <div class="mdl-tooltip" data-mdl-for="swingImg">Swing</div>
-                <img src="images/trampoline.png" id="trampolineImg"/>
-                <div class="mdl-tooltip" data-mdl-for="trampolineImg">Trampoline</div>
-              </div>
-              <div id="parcDetailsAge">
-                 <i class="material-icons" style="font-size:2em;color:rgb(255,235,59)" id="parcDetailsLittle">accessibility</i>
-                 <div class="mdl-tooltip" data-mdl-for="parcDetailsLittle">Between 0 and 2 years old</div>
-                 <i class="material-icons" style="font-size:2.5em;color:rgb(83,109,254)" id="parcDetailsMiddle">accessibility</i>
-                 <div class="mdl-tooltip" data-mdl-for="parcDetailsMiddle">Between 2 and 6 years old</div>
-                 <i class="material-icons" style="font-size:3em;color:rgb(255,64,129)" id="parcDetailsOld">accessibility</i>
-                 <div class="mdl-tooltip" data-mdl-for="parcDetailsOld">More than 6 years old</div>
-              </div>
-              <div id="parcDetailsDescription" class="mdl-card__supporting-text"></div>
-              <div id="parcDetailspicture"><img id="parcDetailspictureIMG"src="" hidden></img></div>
-            </div> 
-            <div class="mdl-tabs__panel" id="review-panel">
-               
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                      <div id="messages">
-                        
-                     </div>
-                      <form hidden id="message-form" action="#">
-                          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="message">
-                            <label class="mdl-textfield__label" for="message">Message...</label>
-                          </div>
-                         <button id="submit" disabled type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                           Send
-                      </button>
-                    </form>
-                   <form id="image-form" action="#">
-                     <input id="mediaCapture" type="file" accept="image/*,capture=camera">
-                     <button id="submitImage" title="Add an image" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--amber-400 mdl-color-text--white">
-                    <i class="material-icons">image</i>
-                      </button>
-                   </form>
-                  </div>
-                </div>
-
-                <div id="must-signin-snackbar" class="mdl-js-snackbar mdl-snackbar">
-                  <div class="mdl-snackbar__text"></div>
-                  <button class="mdl-snackbar__action" type="button"></button>
-                </div>
-             </div>
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="updateParc" hidden>
-            Update
-          </a>
-        </div>
-      </div>
-
-      <div class="demo-card-square mdl-card mdl-shadow--2dp" hidden id="addNewParcCard">
-        <h4 class="mdl-card__title mdl-card--expand" id="cardTitle">Add a new parc</h4>
-        <div class="mdl-card__supporting-text">
-          <p hidden>
-            position:
-              <input class="mdl-textfield__input" type="text" id="newParcLonLat" >
-          </p>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="parcName">
-            <label class="mdl-textfield__label" for="parcName" id="parcNameLabel">Name of the Parc</label>
-          </div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <textarea class="mdl-textfield__input" type="text" rows="3" maxrows="6"
-   id="parcDescription"></textarea>
-            <label class="mdl-textfield__label" for="parcDescription" id="parcDescriptionLabel">Description</label>
-          </div>
-          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="open" id="openLabel">
-            <input type="checkbox" id="open" class="mdl-checkbox__input" checked>
-            <span class="mdl-checkbox__label">Open</span>
-          </label>
-          <div class="mdl-grid gridNoMargin">
-            <div class="mdl-cell mdl-cell--4-col">
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="slide" id="slideLabel">
-                <input type="checkbox" id="slide" class="mdl-checkbox__input" checked>
-                <span class="mdl-checkbox__label">Slide</span>
-              </label>
-            </div>
-            <div class="mdl-cell mdl-cell--4-col"> 
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="swing" id="swingLabel">
-                <input type="checkbox" id="swing" class="mdl-checkbox__input" checked>
-                <span class="mdl-checkbox__label">Swing</span>
-              </label>
-            </div>
-            <div class="mdl-cell mdl-cell--4-col">
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="trampoline" id="trampolineLabel">
-                <input type="checkbox" id="trampoline" class="mdl-checkbox__input" checked>
-                <span class="mdl-checkbox__label">Trampoline</span>
-              </label>
-            </div>
-          </div>
-          <div class="mdl-grid gridNoMargin">
-            <div class="mdl-cell mdl-cell--4-col">
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="lessThan2years" id="selectedParcLessThan2yearsLabel">
-                <input type="checkbox" id="lessThan2years" class="mdl-checkbox__input" checked>
-                <span class="mdl-checkbox__label">0-2 years</span>
-              </label>
-           </div>
-            <div class="mdl-cell mdl-cell--4-col"> 
-             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="between2and6">
-                <input type="checkbox" id="between2and6" class="mdl-checkbox__input" checked>
-                <span class="mdl-checkbox__label">2-6 years</span>
-              </label>
-             </div>
-            <div class="mdl-cell mdl-cell--4-col"> 
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="6andPlus">
-                <input type="checkbox" id="6andPlus" class="mdl-checkbox__input" checked>
-                <span class="mdl-checkbox__label">+6 years</span>
-              </label>
-            </div>
-          </div>     
-      </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <button type="button" class="mdl-button" id="addParcOKButton">Add</button>
-          <button type="button" class="mdl-button" id="updateParcOKButton" hidden>Update</button>
-          <button type="button" class="mdl-button close" id="addParcCancelButton">Cancel</button>
-        </div>
-      </div>
-
-    </div>
- <!-- end of  map container -->
-<div id="controlUIAddParc"></div>
-<div id="controlTextAddParc"></div>
-
-<!-- to be removed -->
-
-  </main>
-
-
-</div>
-
-<!-- Firebase -->
-
-<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48",
-    authDomain: "parcmap.firebaseapp.com",
-    databaseURL: "https://parcmap.firebaseio.com",
-    storageBucket: "parcmap.appspot.com",
-  };
-  firebase.initializeApp(config);
-
- </script>
- <script 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48
-        &libraries=places">
-    </script>
-  <script src="scripts/main.js"></script>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" >
+		
+		<headerparcmap class="mdl-layout__header"></headerparcmap>
+  		<main id="contentGrid" ui-view>
+  			<map></map>
+  			<parclist class="fullHeight" ></parclist>
+  			<parcdetails></parcdetails>
+  			<parcupdate class="fullHeight"></parcupdate>
+  		</main>
+	</div>
 </body>
-</html>
+
+  <script>
+  	// Initialize the Firebase SDK
+  	var config = {
+  		apiKey: "AIzaSyBr7eaeJLc7iosJIBTBTmayxLeN9BvBJ48",
+  		authDomain: "parcmap.firebaseapp.com",
+  		databaseURL: "https://parcmap.firebaseio.com",
+  		storageBucket: "parcmap.appspot.com",
+  	};
+  	firebase.initializeApp(config);
+  </script>
+  <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  </html>

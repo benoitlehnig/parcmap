@@ -1,5 +1,13 @@
 {
-  // If you went through the "Realtime Database Security Rules" step.
+ 
+  "hosting": {
+    "public": "./",
+    "ignore": [
+      "firebase.json",
+      "database-rules.json",
+      "storage.rules"
+    ],
+     // If you went through the "Realtime Database Security Rules" step.
   "database": {
     "rules": "database-rules.json"
   },
@@ -7,13 +15,6 @@
   // If you went through the "Storage Security Rules" step.
   "storage": {
     "rules": "storage.rules"
-  },
-  "hosting": {
-    "public": "./",
-    "ignore": [
-      "firebase.json",
-      "database-rules.json",
-      "storage.rules"
-    ]
+  }
   }
 }

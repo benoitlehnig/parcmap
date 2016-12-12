@@ -1,0 +1,29 @@
+<!-- Header section containing logo -->
+  <div class="mdl-layout__header-row">
+<!-- Title -->
+<div class="mdl-layout-title">
+  <h3><i class="material-icons">chat_bubble_outline</i> ParcMap</h3>
+</div>
+<div>
+  <input class="controls"  type="text" id="location" placeholder="Enter a location"> 
+</div>
+<!-- Navigation. We hide it in small screens. -->
+<div class="mdl-layout-spacer"></div>
+<div id="user-container" >
+  <div ng-hide="firebaseUser.user ==''" id="user-pic"> </div>
+  <div ng-hide="firebaseUser.user ==''" id="user-name">{{ firebaseUser.user.displayName }}</div>
+  <button ng-hide="firebaseUser.user !=''" ng-click="signIn()" id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+    <i class="material-icons">account_circle</i>Sign-in with Google
+  </button>
+  <!-- Right aligned menu below button -->
+  <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+    <i class="material-icons">more_vert</i>
+  </button>
+  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+  for="demo-menu-lower-right">
+    <li class="mdl-menu__item" id="sign-out" ng-click="signOut()">  
+      Sign-Out
+    </li>
+  </ul>
+</div>
+</div>

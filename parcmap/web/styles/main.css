@@ -54,10 +54,6 @@ html, body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-#listContainer{
-   
-}
-
 
 #map { 
   height: calc(100% - 8px);
@@ -72,13 +68,8 @@ html, body {
   padding:0px;margin:0px;
   position:relative;
 }
-#mapContainer, #parcDetailsContainer {  height: calc(100%); padding:0px;margin:0px;}
-#parcDetailsContainer.small{
-  height: 0px; padding:0px;margin:0px;
-}
-#parcDetailsContainer.big{
-  height: calc(100%); padding:0px;margin:0px;
-}
+#mapContainer, {  height: calc(100%); padding:0px;margin:0px;}
+
 #mapContainer.mdl-cell--12-col, #mapContainer.mdl-cell--12-col-tablet, #mapContainer.mdl-cell--12-col-tablet{
   width: calc(100%); 
 } 
@@ -86,22 +77,22 @@ html, body {
    height: calc(100% - 12px);
    width:100%;
 }
-#listParcsAround{
-  overflow-y: auto;
-  height: calc(100% - 126px); 
-}
 #listParcs{
   overflow-y: auto;
-  height: calc(100% - 126px); 
+  margin:0px;
+  height: calc(100% );
 }
-#listParcsAround li{
+#listParcs li{
   cursor:pointer;
 }
-#listParcsAround li:hover{
+parcList{
+   height: calc(100% - 12px);
+}
+#listParcs li:hover{
   background-color:rgb(63,81,181);
   color:#FFFFFF;
 }
-#listParcsAround li:hover span{
+#listParcs li:hover span{
   color:#FFFFFF;
 }
 #addNewParcCard{
@@ -109,11 +100,16 @@ html, body {
 }
 
 #messages-card-container {
-  height: 300px;
+  height: 250px;
   padding-bottom: 0;
 }
+
 #messages-card {
   margin-top: 15px;
+}
+#messages{
+  max-height: 500px;
+  overflow-y: auto;
 }
 .mdl-layout__header-row span {
   margin-left: 15px;
@@ -131,14 +127,7 @@ html, body {
   height: 100%;
   padding-top: 0;
 }
-#messages {
-  overflow-y: auto;
-  margin-bottom: 10px;
-  height: 320px;
-  flex: 1 1 auto;
-  flex-direction: column;
-  display: flex;
-}
+
 #message-filler {
   flex-grow: 1;
 }
@@ -326,9 +315,6 @@ html, body {
   margin: 0px;
 }
 
-#parcDetailsName{
-
-}
 #parcDetailsDescription{
     margin-top: 1em;
     max-height: 150px;
@@ -353,40 +339,24 @@ html, body {
     -o-transition: height 100ms linear;
     -ms-transition: height 100ms linear;
     transition: height 100ms linear;
-
 }
 
-#listParcsAround.small {
-    height:1px;
-    overflow-y: hidden;
-}
-
-#listParcsAround.big {
-  overflow-y: auto;
-  height: calc(100%); 
-}
-
-#listParcsAround.small {
-    height:1px;
-    overflow-y: hidden;
-}
 .mdl-chip__contact  i.material-icons{
   position: relative;
   top: 2px;
   font-size: 27px;
 }
 
-#parcsCard{
+.parcsCard{
   position: absolute; 
   top: 10px; 
   left: 10px;
   z-index: 99;
-  height: calc(100% - 25px); 
+  overflow-y: hidden;
 }
 @media (max-width: 610px) {
-  #parcsCard{
+  .parcsCard{
     position: static; 
-    height: calc(100% - 25px); 
     width:100%;
   }
   #map {
@@ -397,8 +367,4 @@ html, body {
 }
 .fullHeight{
   height:100%;
-}
-
-.detailsTabContent{
-  height:calc(100% - 150px);
 }
